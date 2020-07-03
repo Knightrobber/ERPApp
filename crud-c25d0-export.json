@@ -1,0 +1,3217 @@
+{
+  "Attendance" : {
+    "ag826" : {
+      "CCC515" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1582309800000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 3,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 14,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "DOM105" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 11,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 44,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "MED204" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 5,
+          "Lecture" : 5,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 15,
+          "Lecture" : 30,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "MED205" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 6,
+          "Tute" : 5
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 29,
+          "Tute" : 15
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "MED209" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 4,
+          "Lecture" : 6,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 15,
+          "Lecture" : 29,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "MED210" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 7,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 30,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "MGT401" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 11,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 44,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      }
+    },
+    "ma715" : {
+      "ART110" : {
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 11,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 44,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "CCC335" : {
+        "Dates" : {
+          "EndDate" : 1582309800000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 3,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 14,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "CSD202" : {
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 5,
+          "Lecture" : 5,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 14,
+          "Lecture" : 30,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "CSD204" : {
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 5,
+          "Lecture" : 5,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 15,
+          "Lecture" : 30,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "CSD208" : {
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 6,
+          "Lecture" : 6,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 15,
+          "Lecture" : 44,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "CSD209" : {
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 6,
+          "Tute" : 6
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 30,
+          "Tute" : 15
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "CSD318" : {
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 3,
+          "Lecture" : 4,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 15,
+          "Lecture" : 15,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      }
+    },
+    "mp450" : {
+      "CSD202" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 5,
+          "Lecture" : 6,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 14,
+          "Lecture" : 30,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "CSD204" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 5,
+          "Lecture" : 5,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 15,
+          "Lecture" : 30,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "CSD208" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 7,
+          "Lecture" : 7,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 15,
+          "Lecture" : 44,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "CSD209" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 6,
+          "Tute" : 6
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 30,
+          "Tute" : 15
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "DOM105" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 11,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 44,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "MAT160" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 7,
+          "Tute" : 7
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 44,
+          "Tute" : 15
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      }
+    },
+    "nr222" : {
+      "CCC335" : {
+        "Dates" : {
+          "EndDate" : 1582309800000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 3,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 14,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "CSD204" : {
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 5,
+          "Lecture" : 5,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 15,
+          "Lecture" : 30,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "CSD208" : {
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 6,
+          "Lecture" : 6,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 15,
+          "Lecture" : 44,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "CSD209" : {
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 6,
+          "Tute" : 6
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 30,
+          "Tute" : 15
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "Dates" : {
+        "EndDate" : 1588098600000,
+        "StartDate" : 1577903400000
+      },
+      "MAT160" : {
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 7,
+          "Tute" : 7
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 44,
+          "Tute" : 15
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "MissableClasses" : {
+        "Lab" : 5,
+        "Lecture" : 5,
+        "Tute" : 0
+      },
+      "TotalClasses" : {
+        "Lab" : 14,
+        "Lecture" : 30,
+        "Tute" : 0
+      },
+      "TradePts" : {
+        "AvailablePts" : 0
+      }
+    },
+    "pj538" : {
+      "CondonedClasses" : {
+        "Lab" : 0,
+        "Lecture" : 0,
+        "Tute" : 0
+      },
+      "DES111" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 3,
+          "Lecture" : 6,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 15,
+          "Lecture" : 15,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "Dates" : {
+        "EndDate" : 1588098600000,
+        "StartDate" : 1577903400000
+      },
+      "MED204" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 5,
+          "Lecture" : 5,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 15,
+          "Lecture" : 30,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "MED205" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 6,
+          "Tute" : 5
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 29,
+          "Tute" : 15
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "MED209" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 4,
+          "Lecture" : 6,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 15,
+          "Lecture" : 29,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "MED210" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 7,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 30,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "MissableClasses" : {
+        "Lab" : 5,
+        "Lecture" : 5,
+        "Tute" : 0
+      },
+      "MissedClasses" : {
+        "Lab" : 0,
+        "Lecture" : 0,
+        "Tute" : 0
+      },
+      "TotalClasses" : {
+        "Lab" : 15,
+        "Lecture" : 30,
+        "Tute" : 0
+      },
+      "TradePts" : {
+        "AvailablePts" : 0
+      }
+    },
+    "pr440" : {
+      " CSD204" : {
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 5,
+          "Lecture" : 5,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 15,
+          "Lecture" : 30,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "CCC335" : {
+        "Dates" : {
+          "EndDate" : 1582309800000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 3,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 14,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "CSD208" : {
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 6,
+          "Lecture" : 6,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 15,
+          "Lecture" : 44,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "CSD209" : {
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 6,
+          "Tute" : 6
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 30,
+          "Tute" : 15
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "CSD318" : {
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 3,
+          "Lecture" : 4,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 15,
+          "Lecture" : 15,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "ECO102" : {
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 7,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 30,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      }
+    },
+    "rt347" : {
+      "CCC651" : {
+        "Dates" : {
+          "EndDate" : 1582309800000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 3,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 14,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "CSD202" : {
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 5,
+          "Lecture" : 5,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 14,
+          "Lecture" : 30,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "CSD208" : {
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 6,
+          "Lecture" : 6,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 15,
+          "Lecture" : 44,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "CSD209" : {
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 6,
+          "Tute" : 6
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 30,
+          "Tute" : 15
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "DOM105" : {
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 11,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 44,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "DOM403" : {
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 3,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 15,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "ECO102" : {
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 6,
+          "Tute" : 6
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 30,
+          "Tute" : 15
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      }
+    },
+    "rt357" : {
+      "CSD101" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 3,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 15,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "CSD204" : {
+        "CondonedClasses" : {
+          "Lab" : 1,
+          "Lecture" : 1,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 4,
+          "Lecture" : 4,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 2,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 15,
+          "Lecture" : 27,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "CSD208" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 7,
+          "Tute" : 4
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 29,
+          "Tute" : 15
+        },
+        "TradePts" : {
+          "AvailablePts" : 0.5
+        }
+      }
+    },
+    "sa139" : {
+      "ECO101" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 4,
+          "Tute" : 3
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 15,
+          "Tute" : 15
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "MED204" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 5,
+          "Lecture" : 5,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 15,
+          "Lecture" : 30,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "MED205" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 4,
+          "Tute" : 3
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 14,
+          "Tute" : 15
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "MED209" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 4,
+          "Lecture" : 6,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 15,
+          "Lecture" : 29,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "MED210" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 7,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 30,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      }
+    },
+    "sa342" : {
+      "CCC515" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 7,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 29,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "CSD202" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 5,
+          "Lecture" : 5,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 14,
+          "Lecture" : 30,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "CSD204" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 5,
+          "Lecture" : 5,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 15,
+          "Lecture" : 30,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "CSD208" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 6,
+          "Lecture" : 6,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 15,
+          "Lecture" : 44,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "CSD209" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 6,
+          "Tute" : 6
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 30,
+          "Tute" : 15
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "DOM105" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 11,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 44,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "MGT401" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 11,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 44,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      }
+    },
+    "sg748" : {
+      "CCC101" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 7,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 29,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "CSD202" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 11,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 44,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "CSD204" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 5,
+          "Lecture" : 5,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 15,
+          "Lecture" : 30,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "CSD208" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 6,
+          "Lecture" : 6,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 15,
+          "Lecture" : 44,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "CSD209" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 6,
+          "Tute" : 6
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 30,
+          "Tute" : 15
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "DOM105" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 11,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 44,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      }
+    },
+    "sn177" : {
+      "ECO101" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 2,
+          "Tute" : 5
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 2,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 17,
+          "Tute" : 17
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      }
+    },
+    "sv123" : {
+      "CSD204" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 5,
+          "Lecture" : 5,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 15,
+          "Lecture" : 30,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "CSD208" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 6,
+          "Lecture" : 6,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 15,
+          "Lecture" : 44,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "CSD332" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 5,
+          "Lecture" : 6,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 14,
+          "Lecture" : 30,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "DOM105" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 3,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 15,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      },
+      "DOM403" : {
+        "CondonedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "Dates" : {
+          "EndDate" : 1588098600000,
+          "StartDate" : 1577903400000
+        },
+        "MissableClasses" : {
+          "Lab" : 0,
+          "Lecture" : 3,
+          "Tute" : 0
+        },
+        "MissedClasses" : {
+          "Lab" : 0,
+          "Lecture" : 0,
+          "Tute" : 0
+        },
+        "TotalClasses" : {
+          "Lab" : 0,
+          "Lecture" : 15,
+          "Tute" : 0
+        },
+        "TradePts" : {
+          "AvailablePts" : 0
+        }
+      }
+    }
+  },
+  "CourseList" : {
+    "ART111" : {
+      "Labs" : {
+        "P1" : {
+          "Monday" : "17:00-18:00"
+        },
+        "P2" : {
+          "Tuesday" : "8:00-9:00"
+        }
+      },
+      "Monday" : [ "8:00-9:00" ]
+    },
+    "CSD204" : {
+      "Thursday" : [ "9:00-10:30" ],
+      "Tuesday" : [ "9:00-10:30" ]
+    },
+    "CSD208" : {
+      "Friday" : [ "11:30-12:30" ],
+      "Monday" : [ "11:30-12:30" ],
+      "Wednesday" : [ "11:30-12:30" ]
+    },
+    "CSD209" : {
+      "Thursday" : [ "10:30-12:00" ],
+      "Tuesday" : [ "10:30-12:00" ]
+    },
+    "MEC123" : {
+      "Monday" : [ "8:00-9:00" ],
+      "Tuts" : {
+        "T1" : {
+          "Wednesday" : "8:00-9:00"
+        },
+        "T2" : {
+          "Thursday" : "8:00-9:00"
+        }
+      }
+    },
+    "PHY101" : {
+      "Labs" : {
+        "P1" : {
+          "Monday" : "15:30-17:00"
+        },
+        "P2" : {
+          "Wednesday" : "14:00-16:00"
+        },
+        "P3" : {
+          "Friday" : "12:00-14:00"
+        }
+      },
+      "Thursday" : [ "8:00-9:00" ],
+      "Tuesday" : [ "8:00-9:00" ],
+      "Tuts" : {
+        "T1" : {
+          "Monday" : "17:00-18:00"
+        },
+        "T2" : {
+          "Tuesday" : "12:00-13:00"
+        },
+        "T3" : {
+          "Friday" : "9:00-10:00"
+        }
+      }
+    }
+  },
+  "Courses" : {
+    "ag826" : {
+      "courses" : [ "MED204", "MED210", "DOM105", "MGT401", "MED209", "CCC515", "MED205" ]
+    },
+    "ma715" : {
+      "courses" : [ "CSD318", "CSD208", "ART110", "CCC335", "CSD204", "CSD209", "CSD202" ]
+    },
+    "mp450" : {
+      "courses" : [ "CSD208", "DOM105", "MAT160", "CSD204", "CSD209", "CSD202" ]
+    },
+    "nr222" : {
+      "courses" : [ "CSD204", "CSD209", "", "CSD208", "CCC335", "MAT160" ]
+    },
+    "pj538" : {
+      "courses" : [ "", "MED210", "MED209", "MED204", "DES111", "MED205" ]
+    },
+    "pr440" : {
+      "courses" : [ "CSD318", "CSD208", "CCC335", " CSD204", "CSD209", "ECO102" ]
+    },
+    "rt347" : {
+      "courses" : [ "CSD204", "CSD202", "CSD209", "CSD208", "DOM105", "ECO102", "DOM403", "CCC651" ]
+    },
+    "rt357" : {
+      "courses" : [ "CSD204", "CSD208", "CSD101" ]
+    },
+    "sa139" : {
+      "courses" : [ "MED204", "MED210", "MED209", "MED205", "ECO101" ]
+    },
+    "sa342" : {
+      "courses" : [ "CSD208", "DOM105", "MGT401", "CCC515", "CSD204", "CSD209", "CSD202" ]
+    },
+    "sg748" : {
+      "courses" : [ "CSD208", "DOM105", "CCC101", "CSD204", "CSD209", "CSD202" ]
+    },
+    "sn177" : {
+      "courses" : [ "ECO101" ]
+    },
+    "sn178" : {
+      "courses" : [ "CSD208", "MAT160", "CSD204", "CSD209", "CSD202", "CCC237", "CSD103", "CSD110", "CSD200", "CSD201" ]
+    },
+    "sv123" : {
+      "courses" : [ "CSD332", "CSD208", "CSD204", "DOM403", "DOM105" ]
+    }
+  },
+  "Students" : {
+    "ag826" : {
+      "CCC515" : {
+        "Monday" : [ "15:30-17:00" ],
+        "Wednesday" : [ "15:30-17:00" ]
+      },
+      "DOM105" : {
+        "Friday" : [ "13:30-14:30" ],
+        "Monday" : [ "13:30-14:30" ],
+        "Wednesday" : [ "13:30-14:30" ]
+      },
+      "MED204" : {
+        "Friday" : [ "9:00-10:30" ],
+        "Monday" : [ "9:30-11:00" ],
+        "Thursday" : [ "13:30-15:30" ]
+      },
+      "MED205" : {
+        "Friday" : [ "12:30-13:30" ],
+        "Tuesday" : [ "17:00-18:00" ],
+        "Wednesday" : [ "11:30-12:30" ]
+      },
+      "MED209" : {
+        "Monday" : [ "17:00-18:00" ],
+        "Thursday" : [ "15:30-17:30" ],
+        "Wednesday" : [ "17:00-18:00" ]
+      },
+      "MED210" : {
+        "Monday" : [ "11:00-12:00" ],
+        "Thursday" : [ "11:00-12:00" ]
+      },
+      "MGT401" : {
+        "Friday" : [ "14:30-15:30" ],
+        "Monday" : [ "14:30-15:30" ],
+        "Wednesday" : [ "14:30-15:30" ]
+      }
+    },
+    "ma715" : {
+      "ART110" : {
+        "Friday" : [ "13:30-14:30" ],
+        "Monday" : [ "13:30-14:30" ],
+        "Wednesday" : [ "13:30-14:30" ]
+      },
+      "CCC335" : {
+        "Monday" : [ "15:30-17:00" ],
+        "Wednesday" : [ "15:30-17:00" ]
+      },
+      "CSD202" : {
+        "Friday" : [ "16:30-18:00" ],
+        "Tuesday" : [ "16:30-18:00" ],
+        "Wednesday" : [ "9:30-11:30" ]
+      },
+      "CSD204" : {
+        "Thursday" : [ "9:00-10:30", "15:00-17:00" ],
+        "Tuesday" : [ "9:00-10:30" ]
+      },
+      "CSD208" : {
+        "Friday" : [ "11:30-12:30" ],
+        "Monday" : [ "11:30-12:30" ],
+        "Tuesday" : [ "14:30-16:30" ],
+        "Wednesday" : [ "11:30-12:30" ]
+      },
+      "CSD209" : {
+        "Thursday" : [ "10:30-12:00", "14:00-15:00" ],
+        "Tuesday" : [ "10:30-12:00" ]
+      },
+      "CSD318" : {
+        "Friday" : [ "9:30-11:30" ],
+        "Monday" : [ "9:00-11:00" ]
+      }
+    },
+    "mp450" : {
+      "CSD202" : {
+        "Friday" : [ "16:30-18:00" ],
+        "Tuesday" : [ "16:30-18:30" ],
+        "Wednesday" : [ "9:30-11:30" ]
+      },
+      "CSD204" : {
+        "Thursday" : [ "9:00-10:30", "15:00-17:00" ],
+        "Tuesday" : [ "9:00-10:30" ]
+      },
+      "CSD208" : {
+        "Friday" : [ "11:30-12:00" ],
+        "Monday" : [ "11:30-12:30" ],
+        "Tuesday" : [ "14:30-15:30" ],
+        "Wednesday" : [ "11:30-12:30" ]
+      },
+      "CSD209" : {
+        "Thursday" : [ "10:30-12:00", "14:00-15:00" ],
+        "Tuesday" : [ "10:30-12:00" ]
+      },
+      "DOM105" : {
+        "Friday" : [ "13:30-14:30" ],
+        "Monday" : [ "13:30-14:30" ],
+        "Wednesday" : [ "13:30-14:30" ]
+      },
+      "MAT160" : {
+        "Friday" : [ "14:30-15:30", "15:30-16:30" ],
+        "Monday" : [ "14:30-15:30" ],
+        "Wednesday" : [ "14:30-15:30" ]
+      }
+    },
+    "nr222" : {
+      "CCC335" : {
+        "Monday" : [ "15:30-17:00" ],
+        "Wednesday" : [ "15:30-17:00" ]
+      },
+      "CSD208" : {
+        "Friday" : [ "11:30-12:30" ],
+        "Monday" : [ "11:30-12:30" ],
+        "Tuesday" : [ "14:30-16:30" ],
+        "Wednesday" : [ "11:30-12:30" ]
+      },
+      "Friday" : [ "16:30-18:00" ],
+      "MAT160" : {
+        "Friday" : [ "14:30-15:30", "15:30-16:30" ],
+        "Monday" : [ "14:30-15:30" ],
+        "Wednesday" : [ "14:30-15:30" ]
+      },
+      "Tuesday" : [ "16:30-18:00" ],
+      "Wednesday" : [ "9:30-11:30" ]
+    },
+    "pj538" : {
+      "DES111" : {
+        "Monday" : [ "9:00-10:00", "10:00-14:00" ]
+      },
+      "Friday" : [ "9:30-11:30" ],
+      "MED204" : {
+        "Friday" : [ "9:00-10:30" ],
+        "Monday" : [ "9:30-11:00" ],
+        "Thursday" : [ "13:30-15:30" ]
+      },
+      "MED205" : {
+        "Friday" : [ "12:30-13:30" ],
+        "Tuesday" : [ "17:00-18:00" ],
+        "Wednesday" : [ "11:30-12:30" ]
+      },
+      "MED209" : {
+        "Monday" : [ "17:00-18:00" ],
+        "Thursday" : [ "15:30-17:30" ],
+        "Wednesday" : [ "17:00-18:00" ]
+      },
+      "MED210" : {
+        "Monday" : [ "11:00-12:00" ],
+        "Thursday" : [ "11:00-12:00" ]
+      },
+      "Monday" : [ "9:30-11:00" ],
+      "Thursday" : [ "13:30-15:30" ]
+    },
+    "pr440" : {
+      " CSD204" : {
+        "Thursday" : [ "9:00-10:30", "15:00-17:00" ],
+        "Tuesday" : [ "9:00-10:30" ]
+      },
+      "CCC335" : {
+        "Monday" : [ "15:30-17:00" ],
+        "Wednesday" : [ "15:30-17:00" ]
+      },
+      "CSD208" : {
+        "Friday" : [ "11:30-12:30" ],
+        "Monday" : [ "11:30-12:30" ],
+        "Tuesday" : [ "12:00-14:00" ],
+        "Wednesday" : [ "11:30-12:30" ]
+      },
+      "CSD209" : {
+        "Thursday" : [ "10:30-12:00", "14:00-15:00" ],
+        "Tuesday" : [ "10:30-12:00" ]
+      },
+      "CSD318" : {
+        "Friday" : [ "9:30-11:30" ],
+        "Monday" : [ "9:00-11:00" ]
+      },
+      "ECO102" : {
+        "Friday" : [ "15:00-16:30" ],
+        "Tuesday" : [ "15:00-16:30" ]
+      }
+    },
+    "rt347" : {
+      "CCC651" : {
+        "Monday" : [ "15:30-17:00" ],
+        "Wednesday" : [ "15:30-17:00" ]
+      },
+      "CSD202" : {
+        "Friday" : [ "16:30-18:00" ],
+        "Tuesday" : [ "16:30-18:00" ],
+        "Wednesday" : [ "9:30-11:30" ]
+      },
+      "CSD208" : {
+        "Friday" : [ "11:30-12:30" ],
+        "Monday" : [ "11:30-12:30" ],
+        "Tuesday" : [ "12:00-14:00" ],
+        "Wednesday" : [ "11:30-12:30" ]
+      },
+      "CSD209" : {
+        "Thursday" : [ "10:30-12:00", "14:00-15:00" ],
+        "Tuesday" : [ "10:30-12:00" ]
+      },
+      "DOM105" : {
+        "Friday" : [ "13:30-14:30" ],
+        "Monday" : [ "13:30-14:30" ],
+        "Wednesday" : [ "13:30-14:30" ]
+      },
+      "DOM403" : {
+        "Friday" : [ "12:30-13:30" ]
+      },
+      "ECO102" : {
+        "Friday" : [ "15:00-16:30" ],
+        "Thursday" : [ "17:00-18:00" ],
+        "Tuesday" : [ "15:00-16:30" ]
+      }
+    },
+    "rt357" : {
+      "CSD101" : {
+        "Monday" : [ "8:00-9:00" ]
+      },
+      "CSD204" : {
+        "Thursday" : [ "9:00-10:30", "15:00-17:00" ],
+        "Tuesday" : [ "9:00-10:30" ]
+      },
+      "CSD208" : {
+        "Thursday" : [ "10:30-12:00" ],
+        "Tuesday" : [ "10:30-12:00", "15:00-16:00" ]
+      }
+    },
+    "sa139" : {
+      "ECO101" : {
+        "Friday" : [ "10:30-12:00", "15:30-16:30" ]
+      },
+      "MED204" : {
+        "Friday" : [ "9:00-10:30" ],
+        "Monday" : [ "9:30-11:00" ],
+        "Thursday" : [ "13:30-15:30" ]
+      },
+      "MED205" : {
+        "Tuesday" : [ "17:00-18:00" ],
+        "Wednesday" : [ "11:30-12:30" ]
+      },
+      "MED209" : {
+        "Monday" : [ "17:00-18:00" ],
+        "Thursday" : [ "15:30-17:30" ],
+        "Wednesday" : [ "17:00-18:00" ]
+      },
+      "MED210" : {
+        "Monday" : [ "11:00-12:00" ],
+        "Thursday" : [ "11:00-12:00" ]
+      }
+    },
+    "sa342" : {
+      "CCC515" : {
+        "Monday" : [ "15:30-17:00" ],
+        "Wednesday" : [ "15:30-17:00" ]
+      },
+      "CSD202" : {
+        "Friday" : [ "16:30-18:00" ],
+        "Tuesday" : [ "16:30-18:00" ],
+        "Wednesday" : [ "9:30-11:30" ]
+      },
+      "CSD204" : {
+        "Thursday" : [ "9:00-10:30", "15:00-17:00" ],
+        "Tuesday" : [ "9:00-10:30" ]
+      },
+      "CSD208" : {
+        "Friday" : [ "11:30-12:30" ],
+        "Monday" : [ "11:30-12:30" ],
+        "Tuesday" : [ "12:00-14:00" ],
+        "Wednesday" : [ "11:30-12:30" ]
+      },
+      "CSD209" : {
+        "Thursday" : [ "10:30-12:00" ],
+        "Tuesday" : [ "10:30-12:00", "15:00-16:00" ]
+      },
+      "DOM105" : {
+        "Friday" : [ "13:30-14:30" ],
+        "Monday" : [ "13:30-14:30" ],
+        "Wednesday" : [ "13:30-14:30" ]
+      },
+      "MGT401" : {
+        "Friday" : [ "14:30-15:30" ],
+        "Monday" : [ "14:30-15:30" ],
+        "Wednesday" : [ "14:30-15:30" ]
+      }
+    },
+    "sg748" : {
+      "CCC101" : {
+        "Monday" : [ "15:30-17:00" ],
+        "Wednesday" : [ "15:30-17:00" ]
+      },
+      "CSD202" : {
+        "Thursday" : [ "16:30-18:00" ],
+        "Tuesday" : [ "16:30-18:00" ],
+        "Wednesday" : [ "9:30-11:30" ]
+      },
+      "CSD204" : {
+        "Thursday" : [ "9:00-10:30", "15:00-17:00" ],
+        "Tuesday" : [ "9:00-10:30" ]
+      },
+      "CSD208" : {
+        "Friday" : [ "11:30-12:30" ],
+        "Monday" : [ "11:30-12:30" ],
+        "Tuesday" : [ "12:00-14:00" ],
+        "Wednesday" : [ "11:30-12:30" ]
+      },
+      "CSD209" : {
+        "Thursday" : [ "10:30-12:00" ],
+        "Tuesday" : [ "10:30-12:00", "15:00-16:00" ]
+      },
+      "DOM105" : {
+        "Friday" : [ "13:30-14:30" ],
+        "Monday" : [ "13:30-14:30" ],
+        "Wednesday" : [ "13:30-14:30" ]
+      }
+    },
+    "sn177" : {
+      "ECO101" : {
+        "Saturday" : [ "9:00-12:00", "13:00-14:00" ]
+      }
+    },
+    "sv123" : {
+      "CSD204" : {
+        "Thursday" : [ "9:00-10:30", "15:00-17:00" ],
+        "Tuesday" : [ "9:00-10:30" ]
+      },
+      "CSD208" : {
+        "Friday" : [ "11:30-12:30" ],
+        "Monday" : [ "11:30-12:30" ],
+        "Tuesday" : [ "14:30-16:30" ],
+        "Wednesday" : [ "11:30-12:30" ]
+      },
+      "CSD332" : {
+        "Friday" : [ "9:30-11:00" ],
+        "Monday" : [ "9:30-11:00" ],
+        "Wednesday" : [ "9:30-11:00" ]
+      },
+      "DOM105" : {
+        "Friday" : [ "13:30-14:30" ]
+      },
+      "DOM403" : {
+        "Friday" : [ "12:30-13:30" ]
+      }
+    }
+  },
+  "StudentsLLT" : {
+    "ag826" : {
+      "CCC515" : {
+        "Monday" : {
+          "Lecture" : "15:30-17:00"
+        },
+        "Wednesday" : {
+          "Lecture" : "15:30-17:00"
+        }
+      },
+      "DOM105" : {
+        "Friday" : {
+          "Lecture" : "13:30-14:30"
+        },
+        "Monday" : {
+          "Lecture" : "13:30-14:30"
+        },
+        "Wednesday" : {
+          "Lecture" : "13:30-14:30"
+        }
+      },
+      "MED204" : {
+        "Friday" : {
+          "Lecture" : "9:00-10:30"
+        },
+        "Monday" : {
+          "Lecture" : "9:30-11:00"
+        },
+        "Thursday" : {
+          "Lab" : "13:30-15:30"
+        }
+      },
+      "MED205" : {
+        "Friday" : {
+          "Lecture" : "12:30-13:30"
+        },
+        "Tuesday" : {
+          "Tute" : "17:00-18:00"
+        },
+        "Wednesday" : {
+          "Lecture" : "11:30-12:30"
+        }
+      },
+      "MED209" : {
+        "Monday" : {
+          "Lecture" : "17:00-18:00"
+        },
+        "Thursday" : {
+          "Lab" : "15:30-17:30"
+        },
+        "Wednesday" : {
+          "Lecture" : "17:00-18:00"
+        }
+      },
+      "MED210" : {
+        "Monday" : {
+          "Lecture" : "11:00-12:00"
+        },
+        "Thursday" : {
+          "Lecture" : "11:00-12:00"
+        }
+      },
+      "MGT401" : {
+        "Friday" : {
+          "Lecture" : "14:30-15:30"
+        },
+        "Monday" : {
+          "Lecture" : "14:30-15:30"
+        },
+        "Wednesday" : {
+          "Lecture" : "14:30-15:30"
+        }
+      }
+    },
+    "ma715" : {
+      "ART110" : {
+        "Friday" : {
+          "Lecture" : "13:30-14:30"
+        },
+        "Monday" : {
+          "Lecture" : "13:30-14:30"
+        },
+        "Wednesday" : {
+          "Lecture" : "13:30-14:30"
+        }
+      },
+      "CCC335" : {
+        "Monday" : {
+          "Lecture" : "15:30-17:00"
+        },
+        "Wednesday" : {
+          "Lecture" : "15:30-17:00"
+        }
+      },
+      "CSD202" : {
+        "Friday" : {
+          "Lecture" : "16:30-18:00"
+        },
+        "Tuesday" : {
+          "Lecture" : "16:30-18:00"
+        },
+        "Wednesday" : {
+          "Lab" : "9:30-11:30"
+        }
+      },
+      "CSD204" : {
+        "Thursday" : {
+          "Lab" : "15:00-17:00",
+          "Lecture" : "9:00-10:30"
+        },
+        "Tuesday" : {
+          "Lecture" : "9:00-10:30"
+        }
+      },
+      "CSD208" : {
+        "Friday" : {
+          "Lecture" : "11:30-12:30"
+        },
+        "Monday" : {
+          "Lecture" : "11:30-12:30"
+        },
+        "Tuesday" : {
+          "Lab" : "14:30-16:30"
+        },
+        "Wednesday" : {
+          "Lecture" : "11:30-12:30"
+        }
+      },
+      "CSD209" : {
+        "Thursday" : {
+          "Lecture" : "10:30-12:00",
+          "Tute" : "14:00-15:00"
+        },
+        "Tuesday" : {
+          "Lecture" : "10:30-12:00"
+        }
+      },
+      "CSD318" : {
+        "Friday" : {
+          "Lecture" : "9:30-11:30"
+        },
+        "Monday" : {
+          "Lab" : "9:00-11:00"
+        }
+      }
+    },
+    "mp450" : {
+      "CSD202" : {
+        "Friday" : {
+          "Lecture" : "16:30-18:00"
+        },
+        "Tuesday" : {
+          "Lecture" : "16:30-18:30"
+        },
+        "Wednesday" : {
+          "Lab" : "9:30-11:30"
+        }
+      },
+      "CSD204" : {
+        "Thursday" : {
+          "Lab" : "15:00-17:00",
+          "Lecture" : "9:00-10:30"
+        },
+        "Tuesday" : {
+          "Lecture" : "9:00-10:30"
+        }
+      },
+      "CSD208" : {
+        "Friday" : {
+          "Lecture" : "11:30-12:00"
+        },
+        "Monday" : {
+          "Lecture" : "11:30-12:30"
+        },
+        "Tuesday" : {
+          "Lab" : "14:30-15:30"
+        },
+        "Wednesday" : {
+          "Lecture" : "11:30-12:30"
+        }
+      },
+      "CSD209" : {
+        "Thursday" : {
+          "Lecture" : "10:30-12:00",
+          "Tute" : "14:00-15:00"
+        },
+        "Tuesday" : {
+          "Lecture" : "10:30-12:00"
+        }
+      },
+      "DOM105" : {
+        "Friday" : {
+          "Lecture" : "13:30-14:30"
+        },
+        "Monday" : {
+          "Lecture" : "13:30-14:30"
+        },
+        "Wednesday" : {
+          "Lecture" : "13:30-14:30"
+        }
+      },
+      "MAT160" : {
+        "Friday" : {
+          "Lecture" : "14:30-15:30",
+          "Tute" : "15:30-16:30"
+        },
+        "Monday" : {
+          "Lecture" : "14:30-15:30"
+        },
+        "Wednesday" : {
+          "Lecture" : "14:30-15:30"
+        }
+      }
+    },
+    "nr222" : {
+      "CCC335" : {
+        "Monday" : {
+          "Lecture" : "15:30-17:00"
+        },
+        "Wednesday" : {
+          "Lecture" : "15:30-17:00"
+        }
+      },
+      "CSD208" : {
+        "Friday" : {
+          "Lecture" : "11:30-12:30"
+        },
+        "Monday" : {
+          "Lecture" : "11:30-12:30"
+        },
+        "Tuesday" : {
+          "Lab" : "14:30-16:30"
+        },
+        "Wednesday" : {
+          "Lecture" : "11:30-12:30"
+        }
+      },
+      "Friday" : {
+        "Lecture" : "16:30-18:00"
+      },
+      "MAT160" : {
+        "Friday" : {
+          "Lecture" : "14:30-15:30",
+          "Tute" : "15:30-16:30"
+        },
+        "Monday" : {
+          "Lecture" : "14:30-15:30"
+        },
+        "Wednesday" : {
+          "Lecture" : "14:30-15:30"
+        }
+      },
+      "Tuesday" : {
+        "Lecture" : "16:30-18:00"
+      },
+      "Wednesday" : {
+        "Lab" : "9:30-11:30"
+      }
+    },
+    "pj538" : {
+      "DES111" : {
+        "Monday" : {
+          "Lab" : "10:00-14:00",
+          "Lecture" : "9:00-10:00"
+        }
+      },
+      "Friday" : {
+        "Lecture" : "9:30-11:30"
+      },
+      "MED204" : {
+        "Friday" : {
+          "Lecture" : "9:00-10:30"
+        },
+        "Monday" : {
+          "Lecture" : "9:30-11:00"
+        },
+        "Thursday" : {
+          "Lab" : "13:30-15:30"
+        }
+      },
+      "MED205" : {
+        "Friday" : {
+          "Lecture" : "12:30-13:30"
+        },
+        "Tuesday" : {
+          "Tute" : "17:00-18:00"
+        },
+        "Wednesday" : {
+          "Lecture" : "11:30-12:30"
+        }
+      },
+      "MED209" : {
+        "Monday" : {
+          "Lecture" : "17:00-18:00"
+        },
+        "Thursday" : {
+          "Lab" : "15:30-17:30"
+        },
+        "Wednesday" : {
+          "Lecture" : "17:00-18:00"
+        }
+      },
+      "MED210" : {
+        "Monday" : {
+          "Lecture" : "11:00-12:00"
+        },
+        "Thursday" : {
+          "Lecture" : "11:00-12:00"
+        }
+      },
+      "Monday" : {
+        "Lecture" : "9:30-11:00"
+      },
+      "Thursday" : {
+        "Lab" : "13:30-15:30"
+      }
+    },
+    "pr440" : {
+      " CSD204" : {
+        "Thursday" : {
+          "Lab" : "15:00-17:00",
+          "Lecture" : "9:00-10:30"
+        },
+        "Tuesday" : {
+          "Lecture" : "9:00-10:30"
+        }
+      },
+      "CCC335" : {
+        "Monday" : {
+          "Lecture" : "15:30-17:00"
+        },
+        "Wednesday" : {
+          "Lecture" : "15:30-17:00"
+        }
+      },
+      "CSD208" : {
+        "Friday" : {
+          "Lecture" : "11:30-12:30"
+        },
+        "Monday" : {
+          "Lecture" : "11:30-12:30"
+        },
+        "Tuesday" : {
+          "Lab" : "12:00-14:00"
+        },
+        "Wednesday" : {
+          "Lecture" : "11:30-12:30"
+        }
+      },
+      "CSD209" : {
+        "Thursday" : {
+          "Lecture" : "10:30-12:00",
+          "Tute" : "14:00-15:00"
+        },
+        "Tuesday" : {
+          "Lecture" : "10:30-12:00"
+        }
+      },
+      "CSD318" : {
+        "Friday" : {
+          "Lecture" : "9:30-11:30"
+        },
+        "Monday" : {
+          "Lab" : "9:00-11:00"
+        }
+      },
+      "ECO102" : {
+        "Friday" : {
+          "Lecture" : "15:00-16:30"
+        },
+        "Tuesday" : {
+          "Lecture" : "15:00-16:30"
+        }
+      }
+    },
+    "rt347" : {
+      "CCC651" : {
+        "Monday" : {
+          "Lecture" : "15:30-17:00"
+        },
+        "Wednesday" : {
+          "Lecture" : "15:30-17:00"
+        }
+      },
+      "CSD202" : {
+        "Friday" : {
+          "Lecture" : "16:30-18:00"
+        },
+        "Tuesday" : {
+          "Lecture" : "16:30-18:00"
+        },
+        "Wednesday" : {
+          "Lab" : "9:30-11:30"
+        }
+      },
+      "CSD208" : {
+        "Friday" : {
+          "Lecture" : "11:30-12:30"
+        },
+        "Monday" : {
+          "Lecture" : "11:30-12:30"
+        },
+        "Tuesday" : {
+          "Lab" : "12:00-14:00"
+        },
+        "Wednesday" : {
+          "Lecture" : "11:30-12:30"
+        }
+      },
+      "CSD209" : {
+        "Thursday" : {
+          "Lecture" : "10:30-12:00",
+          "Tute" : "14:00-15:00"
+        },
+        "Tuesday" : {
+          "Lecture" : "10:30-12:00"
+        }
+      },
+      "DOM105" : {
+        "Friday" : {
+          "Lecture" : "13:30-14:30"
+        },
+        "Monday" : {
+          "Lecture" : "13:30-14:30"
+        },
+        "Wednesday" : {
+          "Lecture" : "13:30-14:30"
+        }
+      },
+      "DOM403" : {
+        "Friday" : {
+          "Lecture" : "12:30-13:30"
+        }
+      },
+      "ECO102" : {
+        "Friday" : {
+          "Lecture" : "15:00-16:30"
+        },
+        "Thursday" : {
+          "Tute" : "17:00-18:00"
+        },
+        "Tuesday" : {
+          "Lecture" : "15:00-16:30"
+        }
+      }
+    },
+    "rt357" : {
+      "CSD101" : {
+        "Monday" : {
+          "Lecture" : "8:00-9:00"
+        }
+      },
+      "CSD204" : {
+        "Thursday" : {
+          "Lab" : "15:00-17:00",
+          "Lecture" : "9:00-10:30"
+        },
+        "Tuesday" : {
+          "Lecture" : "9:00-10:30"
+        }
+      },
+      "CSD208" : {
+        "Thursday" : {
+          "Lecture" : "10:30-12:00"
+        },
+        "Tuesday" : {
+          "Lecture" : "10:30-12:00",
+          "Tute" : "15:00-16:00"
+        }
+      }
+    },
+    "sa139" : {
+      "ECO101" : {
+        "Friday" : {
+          "Lecture" : "10:30-12:00",
+          "Tute" : "15:30-16:30"
+        }
+      },
+      "MED204" : {
+        "Friday" : {
+          "Lecture" : "9:00-10:30"
+        },
+        "Monday" : {
+          "Lecture" : "9:30-11:00"
+        },
+        "Thursday" : {
+          "Lab" : "13:30-15:30"
+        }
+      },
+      "MED205" : {
+        "Tuesday" : {
+          "Tute" : "17:00-18:00"
+        },
+        "Wednesday" : {
+          "Lecture" : "11:30-12:30"
+        }
+      },
+      "MED209" : {
+        "Monday" : {
+          "Lecture" : "17:00-18:00"
+        },
+        "Thursday" : {
+          "Lab" : "15:30-17:30"
+        },
+        "Wednesday" : {
+          "Lecture" : "17:00-18:00"
+        }
+      },
+      "MED210" : {
+        "Monday" : {
+          "Lecture" : "11:00-12:00"
+        },
+        "Thursday" : {
+          "Lecture" : "11:00-12:00"
+        }
+      }
+    },
+    "sa342" : {
+      "CCC515" : {
+        "Monday" : {
+          "Lecture" : "15:30-17:00"
+        },
+        "Wednesday" : {
+          "Lecture" : "15:30-17:00"
+        }
+      },
+      "CSD202" : {
+        "Friday" : {
+          "Lecture" : "16:30-18:00"
+        },
+        "Tuesday" : {
+          "Lecture" : "16:30-18:00"
+        },
+        "Wednesday" : {
+          "Lab" : "9:30-11:30"
+        }
+      },
+      "CSD204" : {
+        "Thursday" : {
+          "Lab" : "15:00-17:00",
+          "Lecture" : "9:00-10:30"
+        },
+        "Tuesday" : {
+          "Lecture" : "9:00-10:30"
+        }
+      },
+      "CSD208" : {
+        "Friday" : {
+          "Lecture" : "11:30-12:30"
+        },
+        "Monday" : {
+          "Lecture" : "11:30-12:30"
+        },
+        "Tuesday" : {
+          "Lab" : "12:00-14:00"
+        },
+        "Wednesday" : {
+          "Lecture" : "11:30-12:30"
+        }
+      },
+      "CSD209" : {
+        "Thursday" : {
+          "Lecture" : "10:30-12:00"
+        },
+        "Tuesday" : {
+          "Lecture" : "10:30-12:00",
+          "Tute" : "15:00-16:00"
+        }
+      },
+      "DOM105" : {
+        "Friday" : {
+          "Lecture" : "13:30-14:30"
+        },
+        "Monday" : {
+          "Lecture" : "13:30-14:30"
+        },
+        "Wednesday" : {
+          "Lecture" : "13:30-14:30"
+        }
+      },
+      "MGT401" : {
+        "Friday" : {
+          "Lecture" : "14:30-15:30"
+        },
+        "Monday" : {
+          "Lecture" : "14:30-15:30"
+        },
+        "Wednesday" : {
+          "Lecture" : "14:30-15:30"
+        }
+      }
+    },
+    "sg748" : {
+      "CCC101" : {
+        "Monday" : {
+          "Lecture" : "15:30-17:00"
+        },
+        "Wednesday" : {
+          "Lecture" : "15:30-17:00"
+        }
+      },
+      "CSD202" : {
+        "Thursday" : {
+          "Lecture" : "16:30-18:00"
+        },
+        "Tuesday" : {
+          "Lecture" : "16:30-18:00"
+        },
+        "Wednesday" : {
+          "Lecture" : "9:30-11:30"
+        }
+      },
+      "CSD204" : {
+        "Thursday" : {
+          "Lab" : "15:00-17:00",
+          "Lecture" : "9:00-10:30"
+        },
+        "Tuesday" : {
+          "Lecture" : "9:00-10:30"
+        }
+      },
+      "CSD208" : {
+        "Friday" : {
+          "Lecture" : "11:30-12:30"
+        },
+        "Monday" : {
+          "Lecture" : "11:30-12:30"
+        },
+        "Tuesday" : {
+          "Lab" : "12:00-14:00"
+        },
+        "Wednesday" : {
+          "Lecture" : "11:30-12:30"
+        }
+      },
+      "CSD209" : {
+        "Thursday" : {
+          "Lecture" : "10:30-12:00"
+        },
+        "Tuesday" : {
+          "Lecture" : "10:30-12:00",
+          "Tute" : "15:00-16:00"
+        }
+      },
+      "DOM105" : {
+        "Friday" : {
+          "Lecture" : "13:30-14:30"
+        },
+        "Monday" : {
+          "Lecture" : "13:30-14:30"
+        },
+        "Wednesday" : {
+          "Lecture" : "13:30-14:30"
+        }
+      }
+    },
+    "sn177" : {
+      "ECO101" : {
+        "Saturday" : {
+          "Lecture" : "9:00-12:00",
+          "Tute" : "13:00-14:00"
+        }
+      }
+    },
+    "sv123" : {
+      "CSD204" : {
+        "Thursday" : {
+          "Lab" : "15:00-17:00",
+          "Lecture" : "9:00-10:30"
+        },
+        "Tuesday" : {
+          "Lecture" : "9:00-10:30"
+        }
+      },
+      "CSD208" : {
+        "Friday" : {
+          "Lecture" : "11:30-12:30"
+        },
+        "Monday" : {
+          "Lecture" : "11:30-12:30"
+        },
+        "Tuesday" : {
+          "Lab" : "14:30-16:30"
+        },
+        "Wednesday" : {
+          "Lecture" : "11:30-12:30"
+        }
+      },
+      "CSD332" : {
+        "Friday" : {
+          "Lecture" : "9:30-11:00"
+        },
+        "Monday" : {
+          "Lecture" : "9:30-11:00"
+        },
+        "Wednesday" : {
+          "Lab" : "9:30-11:00"
+        }
+      },
+      "DOM105" : {
+        "Friday" : {
+          "Lecture" : "13:30-14:30"
+        }
+      },
+      "DOM403" : {
+        "Friday" : {
+          "Lecture" : "12:30-13:30"
+        }
+      }
+    }
+  },
+  "Teacher" : {
+    "divya+lohani" : {
+      "CSD208" : {
+        "Friday" : [ "11:30-12:30" ],
+        "Monday" : [ "11:30-12:30" ],
+        "Tuesday" : [ "12:00-14:00", "14:30-16:30" ],
+        "Wednesday" : [ "11:30-12:30" ]
+      }
+    },
+    "dolly+sharma" : {
+      "CSD342" : {
+        "Friday" : [ "12:00-14:00" ],
+        "Wednesday" : [ "9:00-11:00" ]
+      }
+    },
+    "harish+karnick" : {
+      "CSD303" : {
+        "Thursday" : [ "9:00-10:30" ],
+        "Tuesday" : [ "9:00-10:30" ]
+      }
+    },
+    "jyoti+kirar" : {
+      "CCC420" : {
+        "Monday" : [ "15:30-17:00" ],
+        "Wednesday" : [ "15:30-17:00" ]
+      },
+      "CSD202" : {
+        "Thursday" : [ "16:30-18:00" ],
+        "Tuesday" : [ "16:30-18:30" ],
+        "Wednesday" : [ "9:30-11:30" ]
+      }
+    },
+    "karmeshu" : {
+      "CSD209" : {
+        "Thursday" : [ "10:30-12:00", "14:00-15:00" ],
+        "Tuesday" : [ "10:30-12:00", "15:00-16:00" ]
+      }
+    },
+    "niteesh+sahni" : {
+      "CSD314" : {
+        "Thursday" : [ "10:30-12:00", "15:00-17:00" ],
+        "Tuesday" : [ "10:30-12:00" ]
+      }
+    },
+    "pk123" : {
+      "CSD202" : {
+        "Friday" : [ "16:30-18:30" ],
+        "Tuesday" : [ "16:30-18:00" ],
+        "Wednesday" : [ "9:30-11:30" ]
+      },
+      "MAT160" : {
+        "Monday" : [ "14:30-15:30" ],
+        "Tuesday" : [ "10:00-17:00" ]
+      }
+    },
+    "pooja+malik" : {
+      "CSD201" : {
+        "Monday" : [ "9:00-10:30", "11:00-13:00" ],
+        "Thursday" : [ "9:00-10:30" ],
+        "Tuesday" : [ "9:00-10:30", "15:00-17:00", "11:00-13:00" ],
+        "Wednesday" : [ "9:00-10:30", "11:00-13:00" ]
+      }
+    },
+    "rajeev+kumar" : {
+      "CSD204" : {
+        "Thursday" : [ "9:00-10:30", "15:00-17:00" ],
+        "Tuesday" : [ "9:00-10:30" ]
+      },
+      "CSD428" : {
+        "Friday" : [ "15:00-17:00" ],
+        "Saturday" : [ "11:00-16:00" ]
+      }
+    },
+    "rakesh+verma" : {
+      "CSD330" : {
+        "Thursday" : [ "10:30-12:00" ],
+        "Tuesday" : [ "10:30-12:00" ]
+      }
+    },
+    "saroj+kaushik" : {
+      "CSD318" : {
+        "Friday" : [ "9:30-11:30" ],
+        "Monday" : [ "9:00-11:00" ]
+      }
+    },
+    "sk860" : {
+      "CCC806" : {
+        "Monday" : [ "15:30-17:00" ],
+        "Wednesday" : [ "15:30-17:00" ]
+      }
+    },
+    "snt200" : {
+      "CSD101" : {
+        "Monday" : [ "9:00-10:00" ]
+      },
+      "CSD102" : {
+        "Monday" : [ "9:00-10:00" ]
+      }
+    },
+    "sonia+khetarpaul" : {
+      "CSD312" : {
+        "Monday" : [ "14:00-15:00" ],
+        "Thursday" : [ "14:00-15:00" ],
+        "Tuesday" : [ "12:00-14:00" ]
+      },
+      "CSD332" : {
+        "Friday" : [ "9:30-11:00" ],
+        "Monday" : [ "9:30-11:00" ]
+      }
+    },
+    "sweta+mishra" : {
+      "CSD101" : {
+        "Friday" : [ "11:30-13:00", "14:30-16:30" ],
+        "Tuesday" : [ "14:00-14:00" ],
+        "Wednesday" : [ "11:30-13:00" ]
+      },
+      "CSD302" : {
+        "Monday" : [ "11:00-12:30" ],
+        "Wednesday" : [ "13:30-15:30", "11:00-12:30" ]
+      }
+    }
+  },
+  "TeachersCourses" : {
+    "divya+lohani" : {
+      "courses" : [ "CSD208" ]
+    },
+    "dolly+sharma" : {
+      "courses" : [ "CSD342" ]
+    },
+    "harish+karnick" : {
+      "courses" : [ "CSD303" ]
+    },
+    "jyoti+kirar" : {
+      "courses" : [ "CCC420", "CSD202" ]
+    },
+    "karmeshu" : {
+      "courses" : [ "CSD209" ]
+    },
+    "niteesh+sahni" : {
+      "courses" : [ "CSD314" ]
+    },
+    "pk123" : {
+      "courses" : [ "MAT160", "MAT160", "CSD202" ]
+    },
+    "pooja+malik" : {
+      "courses" : [ "CSD201" ]
+    },
+    "rajeev+kumar" : {
+      "courses" : [ "CSD204", "CSD428" ]
+    },
+    "rakesh+verma" : {
+      "courses" : [ "CSD330" ]
+    },
+    "saroj+kaushik" : {
+      "courses" : [ "", "CSD318" ]
+    },
+    "sk860" : {
+      "courses" : [ "CCC806" ]
+    },
+    "snt200" : {
+      "courses" : [ "CSD101", "CSD101", "CSD101", "CSD101", "CSD102" ]
+    },
+    "sonia+khetarpaul" : {
+      "courses" : [ "CSD312", "CSD332" ]
+    },
+    "sweta+mishra" : {
+      "courses" : [ "CSD302", "CSD101" ]
+    }
+  },
+  "testing" : {
+    "0" : {
+      "test" : 0
+    },
+    "1" : {
+      "test" : 1
+    },
+    "2" : {
+      "test" : 2
+    },
+    "3" : {
+      "test" : 3
+    },
+    "4" : {
+      "test" : 4
+    },
+    "5" : {
+      "test" : 5
+    },
+    "6" : {
+      "test" : 6
+    },
+    "7" : {
+      "test" : 7
+    },
+    "8" : {
+      "test" : 8
+    },
+    "9" : {
+      "test" : 9
+    },
+    "StartDate" : {
+      "startdate" : 1577903400000
+    },
+    "test" : 9
+  }
+}
