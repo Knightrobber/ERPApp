@@ -12,6 +12,7 @@ import {
   } from 'react-native';
   import auth, { firebase } from '@react-native-firebase/auth';
   import database from '@react-native-firebase/database';
+  import img from '../src/images/bo4.png';
 
 import { Container, Header, Content, Form, Item, Input } from 'native-base';
 import {Dropdown} from 'react-native-material-dropdown';
@@ -30,8 +31,9 @@ import LinearGradient from 'react-native-linear-gradient';
             
         }
     }
-   
+    
     componentDidMount(){
+        
         auth().onAuthStateChanged((user)=>{
             if(!user)
             console.log("error has occured in authstatechanged ");
@@ -46,12 +48,20 @@ import LinearGradient from 'react-native-linear-gradient';
             }
         })
         
-
+        
+    
         
     }
     render(){
         let myCourses = [];
         console.log("Id in render "+this.state.Id) 
+        let daysOfTheWeek = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+        let daysOfTheWeekObj = [];
+        let flags = new Array(7);
+       
+        for(let i=0;i<7;++i)
+        flags[i] = 0;
+    
         database().ref("/TeachersCourses/" + this.state.Id + "/courses").once('value',(snap)=>{
             let courses = snap.val();
             console.log(courses);
@@ -62,47 +72,62 @@ import LinearGradient from 'react-native-linear-gradient';
                 obj.value = courses[i];
                 myCourses.push(obj);
             }
-
+    
+            database().ref("/Teacher/" + this.state.Id).once('value',(snap)=>{
+                snap.forEach((subSnap)=>{
+                    subSnap.forEach((superSubSnap)=>{
+                        if(!flags[daysOfTheWeek.indexOf(superSubSnap.key)])
+                        flags[daysOfTheWeek.indexOf(superSubSnap.key)] =1;
+                        console.log(daysOfTheWeek.indexOf(superSubSnap.key))
+                    })
+                })
+            }).then(()=>{
+                console.log(flags);
+                for(let i=0;i<daysOfTheWeek.length;++i){
+                    let obj= new Object();
+                    if(!flags[i])
+                    obj.label=daysOfTheWeek[i] + "       Free ";
+                    else
+                    obj.label=daysOfTheWeek[i]
+                    obj.value=daysOfTheWeek[i];
+                    daysOfTheWeekObj.push(obj);
+                }
+            })
+    
         })
-
-        let daysOfTheWeek = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-        let daysOfTheWeekObj = [];
-        for(let i=0;i<daysOfTheWeek.length;++i){
-            let obj= new Object();
-            obj.label=daysOfTheWeek[i];
-            obj.value=daysOfTheWeek[i];
-            daysOfTheWeekObj.push(obj);
-        }
-
+    
+        
+    
             
         return(
             <SafeAreaView style = { styles.MainContainer }>
-        <SafeAreaView style={styles.FormBox}>
-          <Text style = { styles.textInput_Style }>Course Code :</Text>
-          <Dropdown data={myCourses} value={this.state.courseName} onChangeText={(courseName)=>{this.setState({courseName:courseName},()=>{console.log(this.state.courseName)})}} label="Course Code" 
-                containerStyle={{width:"50%"}}  baseColor={"white"}     itemTextStyle={{color:'red'}} useNativeDriver={true}/>
-        </SafeAreaView>
-        <SafeAreaView style={styles.FormBox}>
-          <Text style = { styles.textInput_Style }>Day of the Week :</Text>
-          <Dropdown data={daysOfTheWeekObj} value={this.state.dayOfTheWeek} onChangeText={(day)=>{this.setState({dayOfTheWeek:day},()=>{console.log(this.state.dayOfTheWeek)})}} label="Day Of the week" 
-                containerStyle={{width:"50%"}} baseColor={"white"} useNativeDriver={true}/>
-        </SafeAreaView>
-        <SafeAreaView style={styles.Button_align}>
-        <TouchableHighlight style={styles.SubmitButtonStyle} activeOpacity = { 0.5 } onPress={()=>{this.startProcession()}} >
-        <LinearGradient colors={['#36D6BD','#007E7B']} start={{ x:0, y:1}} style={ styles.Linear_G }>
-          <Text style={styles.TextStyle}>FIND</Text>
-        </LinearGradient>
-        </TouchableHighlight>
-        <SafeAreaView style={styles.timing}>
-          <Text style={styles.textOutput}>Timings</Text>
-          <Text style={styles.textOutputdisplay}>{this.state.freeTimings}</Text>
-        </SafeAreaView>
-
-        </SafeAreaView>
-       </SafeAreaView>
+            <SafeAreaView style={styles.FormBox}>
+              <Text style = { styles.textInput_Style }>Course Code :</Text>
+              <Dropdown data={myCourses} value={this.state.courseName} onChangeText={(courseName)=>{this.setState({courseName:courseName},()=>{console.log(this.state.courseName)})}} label="Course Code" 
+                    containerStyle={{width:"50%"}}  baseColor={"white"}     itemTextStyle={{color:'red'}} useNativeDriver={true}/>
+            </SafeAreaView>
+            <SafeAreaView style={styles.FormBox}>
+              <Text style = { styles.textInput_Style }>Day of the Week :</Text>
+              <Dropdown data={daysOfTheWeekObj} value={this.state.dayOfTheWeek} onChangeText={(day)=>{this.setState({dayOfTheWeek:day},()=>{console.log(this.state.dayOfTheWeek)})}} label="Day Of the week" 
+                    containerStyle={{width:"50%"}} baseColor={"white"} useNativeDriver={true}/>
+            </SafeAreaView>
+            <SafeAreaView style={styles.Button_align}>
+            <TouchableHighlight style={styles.SubmitButtonStyle} activeOpacity = { 0.5 } onPress={()=>{this.startProcession()}} >
+            <LinearGradient colors={['#36D6BD','#007E7B']} start={{ x:0, y:1}} style={ styles.Linear_G }>
+              <Text style={styles.TextStyle}>FIND</Text>
+            </LinearGradient>
+            </TouchableHighlight>
+            <SafeAreaView style={styles.timing}>
+              <Text style={styles.textOutput}>Timings</Text>
+              <Text style={styles.textOutputdisplay}>{this.state.freeTimings}</Text>
+            </SafeAreaView>
+    
+            </SafeAreaView>
+           </SafeAreaView>
+       
         )
     }
-
+    
     signOut(){
         auth().signOut().then(()=>{
             console.log("User signed Out");
@@ -112,8 +137,8 @@ import LinearGradient from 'react-native-linear-gradient';
     }
      startProcession = () =>{
          
-
-   let user = this.state.Id;
+    
+    let user = this.state.Id;
     let courseName = this.state.courseName;
     let dayOfTheWeek = this.state.dayOfTheWeek;
     if(courseName=='' || dayOfTheWeek =='')
@@ -122,36 +147,36 @@ import LinearGradient from 'react-native-linear-gradient';
         return;
     }
      
-let promise = this.runAllStudentsPromise(courseName);
-let freeTimesArray = [];
-let overallFreeTime = []
-promise.then((allStudents)=>{
-console.log(" The students enrolled in the course are " + allStudents);
-if(allStudents.length==0){
+    let promise = this.runAllStudentsPromise(courseName);
+    let freeTimesArray = [];
+    let overallFreeTime = []
+    promise.then((allStudents)=>{
+    console.log(" The students enrolled in the course are " + allStudents);
+    if(allStudents.length==0){
     alert("No students enrolled in this course ");
     return;
-}
-this.findAllFreeTimes(allStudents,dayOfTheWeek).then((freeTimes)=>{
+    }
+    this.findAllFreeTimes(allStudents,dayOfTheWeek).then((freeTimes)=>{
     freeTimesArray = freeTimes;
     console.log("free times of all students " + freeTimesArray);
-
- let teacherProm = this.runTeacherFreeTimePromise(user,dayOfTheWeek)
- teacherProm.then((teachersFreeTime)=>{
+    
+    let teacherProm = this.runTeacherFreeTimePromise(user,dayOfTheWeek)
+    teacherProm.then((teachersFreeTime)=>{
      console.log("free times of teacher " +  teachersFreeTime)
      overallFreeTime = this.cmpFreeTimes(freeTimesArray,teachersFreeTime)
- }).then(()=>{
+    }).then(()=>{
      console.log("overall free time "  + overallFreeTime)
     let temp = this.joinSlots(overallFreeTime);
     this.setState({freeTimings:temp});
      console.log(temp);
- })
- 
-})
-
-})
-
+    })
+    
+    })
+    
+    })
+    
     }
-
+    
     runAllStudentsPromise = (courseName) =>{
         return new Promise((resolve,reject)=>{
             let studentsEnrolled = []
@@ -170,7 +195,7 @@ this.findAllFreeTimes(allStudents,dayOfTheWeek).then((freeTimes)=>{
        })
         })
        }
-
+    
        findAllFreeTimes =(allStudents,dayOfTheWeek)=>{
         let FreeTimesArray =[];
             return new Promise((resolve,reject)=>{
@@ -202,8 +227,8 @@ this.findAllFreeTimes(allStudents,dayOfTheWeek).then((freeTimes)=>{
             }
             })
         }
-
-
+    
+    
         runFreeTimePromise = (user,dayOfTheWeek)=>{
             return new Promise((resolve,reject)=>{
             
@@ -398,7 +423,7 @@ this.findAllFreeTimes(allStudents,dayOfTheWeek).then((freeTimes)=>{
             
             });
             }
-
+    
         findFreeTime = (timings,userType)=>{
                 let TotalSlots = 20;
                 let FreeTimings = [];
@@ -428,7 +453,7 @@ this.findAllFreeTimes(allStudents,dayOfTheWeek).then((freeTimes)=>{
                 
                 return FreeTimings;
                 }
-
+    
                 BreakTimings = (classTimings,userType)=>{
                     let noOfClasses = classTimings.length;
                     console.log("no of student classes " + noOfClasses);
@@ -529,7 +554,7 @@ this.findAllFreeTimes(allStudents,dayOfTheWeek).then((freeTimes)=>{
                         return newFreeTimeArray;
                         }
                         newTime = (time)=>{
-
+    
                             let tempSplit = time.split(':');
                             if(tempSplit[1]=="00"){
                              tempSplit[1] = "30"
@@ -587,7 +612,7 @@ this.findAllFreeTimes(allStudents,dayOfTheWeek).then((freeTimes)=>{
                                 
                                 }
                                 else if(dayOfTheWeek == "Tuesday" || dayOfTheWeek == "tuesday" ){  
-
+    
                                     /*
                                     database().ref("/TeachersLLT/" + user).once('value',(snap)=>{
                                         snap.forEach(function(subSnap){
@@ -776,9 +801,9 @@ this.findAllFreeTimes(allStudents,dayOfTheWeek).then((freeTimes)=>{
                                     return end1 === start2 ? ` ${start1}-${end2} | ` : "";
                                 }
                         
-
-
-
+    
+    
+    
      
     
     parentFindCourses = ()=>{

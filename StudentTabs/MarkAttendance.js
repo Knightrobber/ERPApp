@@ -64,12 +64,23 @@ import {
 
         return(
             <View>
-                <View>
+                <View style={{flexDirection:'row',justifyContent:'space-around',alignItems:'baseline'}}>
+                    <Text>Choose Course</Text>
                     <Dropdown data={myCourses} onChangeText={(courseName)=>{this.setState({courseName:courseName})}} containerStyle={{width:120}}/>
-                    <DatePicker mode="date" onDateChange={(date)=>{this.setState({date:date})}} date={this.state.date} format="YYYY-MM-DD" />
+                </View>
+                <View style={{flexDirection:'column',justifyContent:'space-around'}}>
+                    <View style={{flexDirection:'row',justifyContent:'space-around'}}>
+                        <Text>Current Attendance </Text>
+                        <Text>100</Text>
+                    </View>
+
+                    <View style={{flexDirection:'row',justifyContent:'space-around'}}>
+                        <Text>End Attendance </Text>
+                        <Text>100</Text>
+                    </View>
                 </View>
                 <Text>MissableClasses</Text>
-                <View style={{flexDirection:'row',justifyContent:'space-around'}}>
+                <View style={{flexDirection:'column',justifyContent:'space-around'}}>
                     <View style={{flexDirection:'row',justifyContent:'space-between',width:'30%'}}>
                     <Text>Lectures</Text>
                     <Text>{this.state.missableLectures}</Text>
@@ -85,148 +96,52 @@ import {
                     <Text>{this.state.missableTutes}</Text>
                     </View>
                 </View>
-                <Button onPress={()=>{this.showMissableClasses()}} title="Show missable classes" />
+                
                 <Text>{this.state.missableRunning}</Text>
-
+            <View style={{flexDirection:'row',justifyContent:'space-between'}}>
                 <Text style={{fontSize:14}}>
                     Mark attendance
                 </Text>
-
-                <View style={{flexDirection:'row',justifyContent:'space-around',alignItems:'flex-start'}}>
-                    <View style={{flexDirection:'column',justifyContent:'space-around',alignItems:'flex-start',width:'25%'}}>
-                        <Text>Missed Class</Text>
-                        <View>
-                       
-                        <View style={{flexDirection:'row',justifyContent:'space-around'}}>
-                        <CheckBox
-                          disabled={false}
-                          value={this.state.missedLecture}
-                          onValueChange={(value)=>{this.setState({missedLecture:value});}}
-                        />
-                        <Text>Missed </Text>
-                        </View>
-                        <View style={{flexDirection:'row',justifyContent:'space-around'}}>
-                        <CheckBox
-                          disabled={false}
-                          value={this.state.missedLab}
-                          onValueChange={(value)=>{this.setState({missedLab:value});}}
-                        />
-                        <Text>Missed </Text>
-                        </View>
-                        <View style={{flexDirection:'row',justifyContent:'space-around'}}>
-                        <CheckBox
-                          disabled={false}
-                          value={this.state.missedTute}
-                          onValueChange={(value)=>{this.setState({missedTute:value});}}
-                        />
-                        <Text>Missed </Text>
-                        </View>
-                        </View>
-                    </View>
-            
-                    <View style={{flexDirection:'column',justifyContent:'space-around',alignItems:'flex-start',width:'25%'}}>
-                        <Text>condoned </Text>
-                        <View>
-                       
-                        <View style={{flexDirection:'row',justifyContent:'space-around'}}>
-                        <CheckBox
-                          disabled={false}
-                          value={this.state.condonedLecture}
-                          onValueChange={(value)=>{this.setState({condonedLecture:value});}}
-                        />
-                        <Text>condoned </Text>
-                        </View>
-                        <View style={{flexDirection:'row',justifyContent:'space-around'}}>
-                        <CheckBox
-                          disabled={false}
-                          value={this.state.condonedLab}
-                          onValueChange={(value)=>{this.setState({condonedLab:value});}}
-                        />
-                        <Text>condoned </Text>
-                        </View>
-                        <View style={{flexDirection:'row',justifyContent:'space-around'}}>
-                        <CheckBox
-                          disabled={false}
-                          value={this.state.condonedTute}
-                          onValueChange={(value)=>{this.setState({condonedTute:value});}}
-                        />
-                        <Text>condoned </Text>
-                        </View>
-                        </View>
-                    </View>
-
-                    <View style={{flexDirection:'column',justifyContent:'space-around',alignItems:'flex-start',width:'25%'}}>
-                        <Text>noClass </Text>
-                        <View>
-                       
-                        <View style={{flexDirection:'row',justifyContent:'space-around'}}>
-                        <CheckBox
-                          disabled={false}
-                          value={this.state.noClassLecture}
-                          onValueChange={(value)=>{this.setState({noClassLecture:value});}}
-                        />
-                        <Text>noClass </Text>
-                        </View>
-                        <View style={{flexDirection:'row',justifyContent:'space-around'}}>
-                        <CheckBox
-                          disabled={false}
-                          value={this.state.noClassLab}
-                          onValueChange={(value)=>{this.setState({noClassLab:value});}}
-                        />
-                        <Text>noClass </Text>
-                        </View>
-                        <View style={{flexDirection:'row',justifyContent:'space-around'}}>
-                        <CheckBox
-                          disabled={false}
-                          value={this.state.noClassTute}
-                          onValueChange={(value)=>{this.setState({noClassTute:value});}}
-                        />
-                        <Text>noClass </Text>
-                        </View>
-                        </View>
-                    </View>
-
-                    <View style={{flexDirection:'column',justifyContent:'space-around',alignItems:'flex-start',width:'25%'}}>
-                        <Text>extraClass </Text>
-                        <View>
-                       
-                        <View style={{flexDirection:'row',justifyContent:'space-around'}}>
-                        <CheckBox
-                          disabled={false}
-                          value={this.state.extraClassLecture}
-                          onValueChange={(value)=>{this.setState({extraClassLecture:value});}}
-                        />
-                        <Text>extraClass </Text>
-                        </View>
-                        <View style={{flexDirection:'row',justifyContent:'space-around'}}>
-                        <CheckBox
-                          disabled={false}
-                          value={this.state.extraClassLab}
-                          onValueChange={(value)=>{this.setState({extraClassLab:value});}}
-                        />
-                        <Text>extraClass </Text>
-                        </View>
-                        <View style={{flexDirection:'row',justifyContent:'space-around'}}>
-                        <CheckBox
-                          disabled={false}
-                          value={this.state.extraClassTute}
-                          onValueChange={(value)=>{this.setState({extraClassTute:value});}}
-                        />
-                        <Text>extraClass </Text>
-                        </View>
-                        </View>
-                    </View>
+                <Text style={{fontSize:14}}>
+                    selected course To be displayed here
+                </Text>
                 
+            </View>
+            <View>
+                <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'baseline'}}>
+                    <Text> Choose Category</Text>
+                    <Text>Category dropdown hereß</Text>
                 </View>
-                <Text>Holiday</Text>
-                <View style={{flexDirection:'row'}}>
-                <CheckBox
-                          disabled={false}
-                          value={this.state.doYouHaveAHoliday}
-                          onValueChange={(value)=>{this.setState({doYouHaveAHoliday:value});}}
-                        />
-                        <Text>Yes</Text>
-                </View>
+
+                <View>
+                       
+                       <View style={{flexDirection:'row'}}>
+                       <CheckBox
+                         disabled={false}
+                         value={this.state.missedLecture}
+                         onValueChange={(value)=>{this.setState({missedLecture:value});}}
+                       />
+                       <Text>Lecture </Text>
+                       </View>
+                       <View style={{flexDirection:'row',}}>
+                       <CheckBox
+                         disabled={false}
+                         value={this.state.missedLab}
+                         onValueChange={(value)=>{this.setState({missedLab:value});}}
+                       />
+                       <Text>Lab </Text>
+                       </View>
+                       <View style={{flexDirection:'row',}}>
+                       <CheckBox
+                         disabled={false}
+                         value={this.state.missedTute}
+                         onValueChange={(value)=>{this.setState({missedTute:value});}}
+                       />
+                       <Text>Tute </Text>
+                       </View>
+                       </View>
+            </View>
+
 
                 <Button onPress={()=>{this.submitAttendance()}} title="Submit attendance"/>
                 <Text>{this.state.submitAttendanceRunning}</Text>
@@ -246,7 +161,7 @@ import {
             return;
         }
         console.log(courseName);
-        this.noClass(this.state.Id,courseName).then(()=>{this.missableClassesNew(this.state.Id,courseName).then(()=>{
+        this.extraClass(this.state.Id,courseName).then(()=>{this.missableClassesNew(this.state.Id,courseName).then(()=>{
             this.showMissableClasses();
         })
     })
@@ -486,20 +401,33 @@ import {
         if(lecture || lab || tute){
         database().ref("/Attendance" + "/" + ID + "/" + courseName + "/" + "TotalClasses").once('value').then((snap)=>{
             if(lecture){
-                if(TotalLabs!=0)
+                if(TotalLectures!=0)
                     TotalLectures = snap.val().Lecture - 1;
-                else
+                else{
                 alert(courseName + " does not have a lecture");
-                
+                return;    
+            }
             }
             else
             TotalLectures = snap.val().Lecture
-            if(lab)
-            TotalLabs = snap.val().Lab - 1;
+            if(lab){
+                if(TotalLabs!=0)
+                    TotalLabs = snap.val().Lab - 1;
+                else{
+                alert(courseName + " does not have a Lab");
+                return;
+            }
+            }
             else
             TotalLabs = snap.val().Lab
-            if(tute)
-            TotalTutes = snap.val().Tute -1
+                if(tute){
+                    if(TotalTutes!=0)
+                    TotalTutes = snap.val().Tute - 1;
+                else{
+                alert(courseName + " does not have a Tute");
+                return;
+            }
+        }
             else
             TotalTutes = snap.val().Tute
     
@@ -530,19 +458,42 @@ import {
         return new Promise((resolve,reject)=>{
         if(lecture || lab || tute){
         database().ref("/Attendance" + "/" + ID + "/" + courseName + "/" + "TotalClasses").once('value').then((snap)=>{
-            if(lecture)
-            TotalLectures = snap.val().Lecture + 1;
+
+            TotalLectures = snap.val().Lecture; 
+            TotalLabs = snap.val().Lab; 
+            TotalTutes= snap.val().Tute;
+
+            if(lecture){
+                if(TotalLectures!=0)
+                    TotalLectures = snap.val().Lecture + 1;
+                else{
+                alert(courseName + " does not have a lecture");
+                return;    
+            }
+            }
             else
             TotalLectures = snap.val().Lecture
-            if(lab)
-            TotalLabs = snap.val().Lab + 1;
+            if(lab){
+                if(TotalLabs!=0)
+                    TotalLabs = snap.val().Lab + 1;
+                else{
+                alert(courseName + " does not have a Lab");
+                return;
+            }
+            }
             else
             TotalLabs = snap.val().Lab
-            if(tute)
-            TotalTutes = snap.val().Tute + 1
+                if(tute){
+                    if(TotalTutes!=0)
+                    TotalTutes = snap.val().Tute + 1;
+                else{
+                alert(courseName + " does not have a Tute");
+                return;
+            }
+        }
             else
             TotalTutes = snap.val().Tute
-    
+
             database().ref("/Attendance" + "/" + ID + "/" + courseName + "/" + "TotalClasses").set({
                 Lecture:TotalLectures,
                 Lab:TotalLabs,

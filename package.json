@@ -36,6 +36,11 @@
     "react-native-screens": "^2.8.0",
     "react-native-tab-view": "^2.14.2"
   },
+  "rnpm": {
+    "assets": [
+	"./assets/fonts/"
+    ]
+},
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/runtime": "^7.9.6",

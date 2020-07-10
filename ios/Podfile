@@ -14,7 +14,10 @@ def add_flipper_pods!(versions = {})
   pod 'FlipperKit/SKIOSNetworkPlugin', versions['Flipper'], :configuration => 'Debug'
   pod 'FlipperKit/FlipperKitUserDefaultsPlugin', versions['Flipper'], :configuration => 'Debug'
   pod 'FlipperKit/FlipperKitReactPlugin', versions['Flipper'], :configuration => 'Debug'
-
+# add the Firebase pod for Google Analytics
+pod 'Firebase/Analytics'
+# add pods for any other desired Firebase products
+# https://firebase.google.com/docs/ios/setup#available-pods
   # List all transitive dependencies for FlipperKit pods
   # to avoid them being linked in Release builds
   pod 'Flipper', versions['Flipper'], :configuration => 'Debug'

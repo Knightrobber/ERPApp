@@ -69,7 +69,7 @@ import {
         })
         */
         return(
-            <SafeAreaView style={styles.maincontainer}>
+    <SafeAreaView style={styles.maincontainer}>
 
       <SafeAreaView style={styles.containerText}>
     <Text style={styles.TextStyle}>Holidays</Text>
@@ -155,14 +155,13 @@ import {
       </SafeAreaView>
         )
     }
-
     signOut(){
-        auth().signOut().then(()=>{
-            console.log("User signed Out");
-            this.props.navigation.navigate('Auth')}).catch((error)=>{
-                console.log("An error occured while signing out " + error);
-            })
-    }
+      auth().signOut().then(()=>{
+          console.log("User signed Out");
+          this.props.navigation.navigate('Auth')}).catch((error)=>{
+              console.log("An error occured while signing out " + error);
+          })
+  }
 
     setHoliday = ()=>{
         
