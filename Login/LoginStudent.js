@@ -83,7 +83,7 @@ import {
         return(
             <Container>
             <Content>
-                <Text>Student</Text>
+                <Text>studant</Text>
                 <InputGroup borderType='rounded' >
                     <Icon name='ios-home' style={{color:'#384850'}}/>
                     <Input placeholder='Email' onChangeText = {(email)=>{this.setState({email:email})}}/>
