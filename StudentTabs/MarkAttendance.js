@@ -6,7 +6,8 @@ import {
     View,
     Text,
     StatusBar,
-    Button
+    Button,
+    TouchableHighlight,
   } from 'react-native';
   //import Moment from 'react-moment';
   import moment from "moment";
@@ -15,6 +16,7 @@ import {
   import DatePicker from 'react-native-datepicker';
   import {Dropdown} from 'react-native-material-dropdown';
   import CheckBox from '@react-native-community/checkbox';
+  import LinearGradient from 'react-native-linear-gradient';
   export default class MarkAttendance extends Component{
       constructor(){
           super();
@@ -64,86 +66,101 @@ import {
 
         return(
             <View>
-                <View style={{flexDirection:'row',justifyContent:'space-around',alignItems:'baseline'}}>
-                    <Text>Choose Course</Text>
-                    <Dropdown data={myCourses} onChangeText={(courseName)=>{this.setState({courseName:courseName})}} containerStyle={{width:120}}/>
+            <View style={styles.card1}>
+            <View style={{justifyContent:'center', alignItems: 'center'}}>
+                <View style={styles.inline}>
+                    <Text style={styles.text}>Choose Course</Text>
+                    <Dropdown data={myCourses} onChangeText={(courseName)=>{this.setState({courseName:courseName})}} containerStyle={{width:'30%'}}/>
                 </View>
-                <View style={{flexDirection:'column',justifyContent:'space-around'}}>
-                    <View style={{flexDirection:'row',justifyContent:'space-around'}}>
-                        <Text>Current Attendance </Text>
-                        <Text>100</Text>
-                    </View>
+                <View>
+                    <View style={styles.inline}>
+                        <Text style={styles.text}>Current Attendance </Text>
+                        <Text style={styles.text2}>: 100</Text>
+                    </View >
 
-                    <View style={{flexDirection:'row',justifyContent:'space-around'}}>
-                        <Text>End Attendance </Text>
-                        <Text>100</Text>
-                    </View>
-                </View>
-                <Text>MissableClasses</Text>
-                <View style={{flexDirection:'column',justifyContent:'space-around'}}>
-                    <View style={{flexDirection:'row',justifyContent:'space-between',width:'30%'}}>
-                    <Text>Lectures</Text>
-                    <Text>{this.state.missableLectures}</Text>
-                    </View>
-
-                    <View style={{flexDirection:'row',justifyContent:'space-around',width:'30%'}}>
-                    <Text>Labs</Text>
-                    <Text>{this.state.missableLabs}</Text>
-                    </View>
-
-                    <View style={{flexDirection:'row',justifyContent:'space-around',width:'30%'}}>
-                    <Text>Tutes</Text>
-                    <Text>{this.state.missableTutes}</Text>
+                    <View style={styles.inline}>
+                        <Text style={styles.text}>Final Attendance </Text>
+                        <Text style={styles.text2}>: 100</Text>
                     </View>
                 </View>
-                
+                </View>
+                </View>
+
+
+                <View style={styles.card2}>
+                <Text style={styles.texthead}>Missable Classes</Text>
+                <View style={{justifyContent:'center', alignItems: 'center'}}>
+                    <View style={styles.inline}>
+                    <Text style={styles.text}>Lectures</Text>
+                    <Text style={styles.text2}>: {this.state.missableLectures}</Text>
+                    </View>
+
+                    <View style={styles.inline}>
+                    <Text style={styles.text}>Labs</Text>
+                    <Text style={styles.text2}>: {this.state.missableLabs}</Text>
+                    </View>
+
+                    <View style={styles.inline}>
+                    <Text style={styles.text}>Tutorials</Text>
+                    <Text style={styles.text2}>: {this.state.missableTutes}</Text>
+                    </View>
+                </View>
                 <Text>{this.state.missableRunning}</Text>
-            <View style={{flexDirection:'row',justifyContent:'space-between'}}>
-                <Text style={{fontSize:14}}>
+                </View>
+
+
+            <View style={styles.card3}>
+                <View>
+                <Text style={styles.texthead}>
                     Mark attendance
                 </Text>
-                <Text style={{fontSize:14}}>
+                <Text style={styles.text}>
                     selected course To be displayed here
                 </Text>
                 
             </View>
             <View>
-                <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'baseline'}}>
-                    <Text> Choose Category</Text>
+                <View style={styles.inline}>
+                    <Text style={styles.text}> Choose Category</Text>
                     <Text>Category dropdown hereß</Text>
                 </View>
 
-                <View>
+                <View style={{backgroundColor: 'red'}}>
                        
-                       <View style={{flexDirection:'row'}}>
+                       <View style={styles.inline}>
                        <CheckBox
                          disabled={false}
                          value={this.state.missedLecture}
                          onValueChange={(value)=>{this.setState({missedLecture:value});}}
                        />
-                       <Text>Lecture </Text>
+                       <Text style={styles.text2}>Lecture </Text>
                        </View>
-                       <View style={{flexDirection:'row',}}>
+                       <View style={styles.inline}>
                        <CheckBox
                          disabled={false}
                          value={this.state.missedLab}
                          onValueChange={(value)=>{this.setState({missedLab:value});}}
                        />
-                       <Text>Lab </Text>
+                       <Text style={styles.text2}>Lab </Text>
                        </View>
-                       <View style={{flexDirection:'row',}}>
+                       <View style={styles.inline}>
                        <CheckBox
                          disabled={false}
                          value={this.state.missedTute}
                          onValueChange={(value)=>{this.setState({missedTute:value});}}
                        />
-                       <Text>Tute </Text>
+                       <Text style={styles.text2}>Tutorials</Text>
                        </View>
                        </View>
             </View>
+            </View>
 
-
-                <Button onPress={()=>{this.submitAttendance()}} title="Submit attendance"/>
+            <TouchableHighlight style={styles.SubmitButtonStyle} activeOpacity = { 0.5 } onPress={()=>{this.submitAttendance()}} >
+            <LinearGradient colors={['#36D6BD','#007E7B']} start={{ x:0, y:1}} style={ styles.Linear_G }>
+              <Text style={styles.TextStyle}>SUBMIT</Text>
+            </LinearGradient>
+            </TouchableHighlight>
+                {/* <Button onPress={()=>{this.submitAttendance()}} title="Submit attendance"/> */}
                 <Text>{this.state.submitAttendanceRunning}</Text>
 
             </View>
@@ -710,3 +727,67 @@ import {
 
 
 }
+
+const styles = StyleSheet.create(
+    {        
+        card1: {
+            backgroundColor: 'red',
+            alignItems: 'center'
+        },
+
+        card2: {
+            backgroundColor: 'green',
+            alignItems: 'center'
+        },
+
+
+        card3: {
+            backgroundColor: 'blue',
+            alignItems: 'center',
+        },
+
+        inline:{
+            flexDirection: 'row',
+        },
+
+        texthead: {
+            fontSize: 18,
+            fontFamily: 'Roboto-Black',
+            alignItems: 'center'
+        },
+
+        text: {
+            fontSize: 18,
+            fontFamily: 'Roboto-Black',
+            width: '60%',
+            justifyContent: 'center'
+        }, 
+        
+        text2: {
+            fontSize: 15,
+            width: '20%',
+            justifyContent: 'center'
+        }, 
+
+        SubmitButtonStyle: {
+            
+            backgroundColor: '#36D6BD',
+            borderRadius: 10,
+            borderWidth: 0,
+            width: 130,
+            marginTop: 10
+        },
+        
+        TextStyle:{
+            color:'#fff',
+            textAlign:'center',
+            fontSize: 20,
+            fontWeight: '200',
+            fontFamily: 'Roboto-Light'
+            
+        },
+        Linear_G:
+        {
+            borderRadius: 10,
+        },
+    });

@@ -92,7 +92,8 @@ import {
                     <Icon name='ios-home' style={{color:'#384850'}}/>
                     <Input secureTextEntry={true} placeholder="Password" onChangeText = {(password)=>{this.setState({password:password})}}/>
                 </InputGroup>
-                <Button title="Login" style={{color:'green'}} color="green" onPress={()=>{this.login()}}/>
+                <Button title="Login" style={{color:'green'}} color="green" onPress={()=>{this.props.navigation.navigate('Student')}}/>
+                {/* onPress={()=>{this.login()}} */}
                 <GoogleSigninButton
                   style={{ width: 192, height: 48 }}
                   size={GoogleSigninButton.Size.Wide}

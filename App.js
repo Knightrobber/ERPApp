@@ -81,9 +81,9 @@ export default class App extends Component{
   createDrawer = () => {
     return(
       <Drawer.Navigator>
+        <Drawer.Screen name="LoginStudent" component={LoginStudent} options={{title:"Student"}}/>
         <Drawer.Screen name="Login" component={Login} options={{title:"Teacher"}}/>
         
-        <Drawer.Screen name="LoginStudent" component={LoginStudent} options={{title:"Student"}}/>
       </Drawer.Navigator>
     )
   }
