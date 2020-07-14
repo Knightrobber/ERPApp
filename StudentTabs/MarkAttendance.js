@@ -65,7 +65,7 @@ import {
         })
 
         return(
-            <View>
+            <View style={{ backgroundColor: '#102138', flex: 1}}>
             <View style={styles.card1}>
             <View style={{justifyContent:'center', alignItems: 'center'}}>
                 <View style={styles.inline}>
@@ -105,7 +105,7 @@ import {
                     <Text style={styles.text2}>: {this.state.missableTutes}</Text>
                     </View>
                 </View>
-                <Text>{this.state.missableRunning}</Text>
+                <Text style={styles.text2}>{this.state.missableRunning}</Text>
                 </View>
 
 
@@ -139,7 +139,7 @@ import {
                        <CheckBox
                          disabled={false}
                          value={this.state.missedLab}
-                         onValueChange={(value)=>{this.setState({missedLab:value});}}
+                         onValueChange={(value)=>{this.setState({missedLab:value});}} style={{color: '#fff'}}
                        />
                        <Text style={styles.text2}>Lab </Text>
                        </View>
@@ -154,7 +154,7 @@ import {
                        </View>
             </View>
             </View>
-
+            <View style={{alignItems: 'center'}}>
             <TouchableHighlight style={styles.SubmitButtonStyle} activeOpacity = { 0.5 } onPress={()=>{this.submitAttendance()}} >
             <LinearGradient colors={['#36D6BD','#007E7B']} start={{ x:0, y:1}} style={ styles.Linear_G }>
               <Text style={styles.TextStyle}>SUBMIT</Text>
@@ -162,6 +162,7 @@ import {
             </TouchableHighlight>
                 {/* <Button onPress={()=>{this.submitAttendance()}} title="Submit attendance"/> */}
                 <Text>{this.state.submitAttendanceRunning}</Text>
+            </View>
 
             </View>
         );
@@ -767,20 +768,23 @@ const styles = StyleSheet.create(
         texthead: {
             fontSize: 18,
             fontFamily: 'Roboto-Black',
-            alignItems: 'center'
+            alignItems: 'center',
+            color: '#fff'
         },
 
         text: {
             fontSize: 18,
             fontFamily: 'Roboto-Black',
             width: '60%',
-            justifyContent: 'center'
+            justifyContent: 'center',
+            color: '#fff'
         }, 
         
         text2: {
             fontSize: 15,
             width: '20%',
-            justifyContent: 'center'
+            justifyContent: 'center',
+            color: '#fff'
         }, 
 
         SubmitButtonStyle: {
@@ -789,7 +793,7 @@ const styles = StyleSheet.create(
             borderRadius: 10,
             borderWidth: 0,
             width: 130,
-            marginTop: 10
+            marginTop: 10,
         },
         
         TextStyle:{
