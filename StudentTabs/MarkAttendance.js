@@ -110,7 +110,7 @@ import {
 
 
             <View style={styles.card3}>
-                <View>
+                <View style={{alignItems: 'center'}}>
                 <Text style={styles.texthead}>
                     Mark attendance
                 </Text>
@@ -120,14 +120,14 @@ import {
                 
             </View>
             <View>
-                <View style={styles.inline}>
+                <View style={styles.inline2}>
                     <Text style={styles.text}> Choose Category</Text>
                     <Text>Category dropdown hereß</Text>
                 </View>
 
-                <View style={{backgroundColor: 'red'}}>
+                <View>
                        
-                       <View style={styles.inline}>
+                       <View style={styles.inline2}>
                        <CheckBox
                          disabled={false}
                          value={this.state.missedLecture}
@@ -135,7 +135,7 @@ import {
                        />
                        <Text style={styles.text2}>Lecture </Text>
                        </View>
-                       <View style={styles.inline}>
+                       <View style={styles.inline2}>
                        <CheckBox
                          disabled={false}
                          value={this.state.missedLab}
@@ -143,7 +143,7 @@ import {
                        />
                        <Text style={styles.text2}>Lab </Text>
                        </View>
-                       <View style={styles.inline}>
+                       <View style={styles.inline2}>
                        <CheckBox
                          disabled={false}
                          value={this.state.missedTute}
@@ -731,23 +731,37 @@ import {
 const styles = StyleSheet.create(
     {        
         card1: {
-            backgroundColor: 'red',
-            alignItems: 'center'
+            alignItems: 'center',
+            margin: 10
         },
 
         card2: {
-            backgroundColor: 'green',
-            alignItems: 'center'
+            alignItems: 'center',
+            margin: 10,
+            borderColor: 'black',
+            borderWidth: 2,
+            borderRadius: 10
         },
 
 
         card3: {
-            backgroundColor: 'blue',
             alignItems: 'center',
+            margin: 10,
+            borderColor: 'black',
+            borderWidth: 2,
+            borderRadius: 10
         },
 
         inline:{
             flexDirection: 'row',
+        },
+
+        inline2:{
+            flexDirection: 'row',
+            width: '80%',
+            alignItems: "center",
+            marginRight: 50,
+            marginLeft: 50
         },
 
         texthead: {
