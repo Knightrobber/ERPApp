@@ -114,9 +114,9 @@ import {
                 <Text style={styles.texthead}>
                     Mark attendance
                 </Text>
-                <Text style={styles.text}>
+                {/* <Text style={styles.text}>
                     selected course To be displayed here
-                </Text>
+                </Text> */}
                 
             </View>
             <View>
@@ -153,7 +153,6 @@ import {
                        </View>
                        </View>
             </View>
-            </View>
             <View style={{alignItems: 'center'}}>
             <TouchableHighlight style={styles.SubmitButtonStyle} activeOpacity = { 0.5 } onPress={()=>{this.submitAttendance()}} >
             <LinearGradient colors={['#36D6BD','#007E7B']} start={{ x:0, y:1}} style={ styles.Linear_G }>
@@ -162,6 +161,7 @@ import {
             </TouchableHighlight>
                 {/* <Button onPress={()=>{this.submitAttendance()}} title="Submit attendance"/> */}
                 <Text>{this.state.submitAttendanceRunning}</Text>
+            </View>
             </View>
 
             </View>
@@ -739,7 +739,7 @@ const styles = StyleSheet.create(
         card2: {
             alignItems: 'center',
             margin: 10,
-            borderColor: 'black',
+            borderColor: '#fff',
             borderWidth: 2,
             borderRadius: 10
         },
@@ -748,13 +748,14 @@ const styles = StyleSheet.create(
         card3: {
             alignItems: 'center',
             margin: 10,
-            borderColor: 'black',
+            borderColor: '#fff',
             borderWidth: 2,
             borderRadius: 10
         },
 
         inline:{
             flexDirection: 'row',
+            marginTop: 10
         },
 
         inline2:{
@@ -762,18 +763,20 @@ const styles = StyleSheet.create(
             width: '80%',
             alignItems: "center",
             marginRight: 50,
-            marginLeft: 50
+            marginLeft: 50,
+            marginTop: 10
         },
 
         texthead: {
             fontSize: 18,
-            fontFamily: 'Roboto-Black',
+            fontWeight: '700',
             alignItems: 'center',
             color: '#fff'
         },
 
         text: {
             fontSize: 18,
+            fontWeight: '100',
             fontFamily: 'Roboto-Black',
             width: '60%',
             justifyContent: 'center',
@@ -782,6 +785,7 @@ const styles = StyleSheet.create(
         
         text2: {
             fontSize: 15,
+            fontWeight: '100',
             width: '20%',
             justifyContent: 'center',
             color: '#fff'
@@ -790,7 +794,7 @@ const styles = StyleSheet.create(
         SubmitButtonStyle: {
             
             backgroundColor: '#36D6BD',
-            borderRadius: 10,
+            borderRadius: 5,
             borderWidth: 0,
             width: 130,
             marginTop: 10,
