@@ -131,7 +131,7 @@ import {
                        <CheckBox
                          disabled={false}
                          value={this.state.missedLecture}
-                         onValueChange={(value)=>{this.setState({missedLecture:value});}}
+                         onValueChange={(value)=>{this.setState({missedLecture:value});}} tintColors={{true: '#fff', false: '#fff'}}
                        />
                        <Text style={styles.text2}>Lecture </Text>
                        </View>
@@ -139,7 +139,7 @@ import {
                        <CheckBox
                          disabled={false}
                          value={this.state.missedLab}
-                         onValueChange={(value)=>{this.setState({missedLab:value});}} style={{color: '#fff'}}
+                         onValueChange={(value)=>{this.setState({missedLab:value});}} style={{color: '#fff'}} tintColors={{true: '#fff', false: '#fff'}}
                        />
                        <Text style={styles.text2}>Lab </Text>
                        </View>
@@ -147,7 +147,7 @@ import {
                        <CheckBox
                          disabled={false}
                          value={this.state.missedTute}
-                         onValueChange={(value)=>{this.setState({missedTute:value});}}
+                         onValueChange={(value)=>{this.setState({missedTute:value});}} tintColors={{true: '#fff', false: '#fff'}}
                        />
                        <Text style={styles.text2}>Tutorials</Text>
                        </View>
@@ -793,7 +793,6 @@ const styles = StyleSheet.create(
 
         SubmitButtonStyle: {
             
-            backgroundColor: '#36D6BD',
             borderRadius: 5,
             borderWidth: 0,
             width: 130,
@@ -810,6 +809,6 @@ const styles = StyleSheet.create(
         },
         Linear_G:
         {
-            borderRadius: 10,
+            borderRadius: 5,
         },
     });
