@@ -106,7 +106,7 @@ export default class Experiment extends Component {
 
           <View style={styles.card2}>
             <Text style={styles.texthead}>Missable Classes</Text>
-            <View style={{justifyContent: 'center', alignItems: 'center'}}>
+            <View>
               <View style={styles.inlineMargin}>
                 <Text style={styles.text}>Lectures</Text>
                 <Text style={styles.text2}>
@@ -229,7 +229,7 @@ export default class Experiment extends Component {
             <Text style={styles.text}>Category</Text>
           </View>
           <View style={{flexDirection: 'row', justifyContent: 'space-around'}}>
-            <View>
+            <View style={{width: '30%'}}>
               <View style={{flexDirection: 'row'}}>
                 <CheckBox
                   disabled={false}
@@ -273,7 +273,7 @@ export default class Experiment extends Component {
               </View>
             </View>
 
-            <View>
+            <View style={{width: '33%'}}>
               <View style={{flexDirection: 'row'}}>
                 <CheckBox
                   disabled={false}
@@ -283,7 +283,7 @@ export default class Experiment extends Component {
                   }}
                   tintColors={{true: 'white', false: 'white'}}
                 />
-                <Text>Lab</Text>
+                <Text style={styles.textCheckbox}>Lab</Text>
               </View>
               <View
                 style={{
@@ -317,7 +317,7 @@ export default class Experiment extends Component {
               </View>
             </View>
 
-            <View>
+            <View style={{width: '33%'}}>
               <View style={{flexDirection: 'row'}}>
                 <CheckBox
                   disabled={false}
@@ -327,7 +327,7 @@ export default class Experiment extends Component {
                   }}
                   tintColors={{true: 'white', false: 'white'}}
                 />
-                <Text>Tute </Text>
+                <Text style={styles.textCheckbox}>Tut</Text>
               </View>
               <View
                 style={{
@@ -390,6 +390,9 @@ const styles = StyleSheet.create({
   card3: {
     backgroundColor: 'blue',
     alignItems: 'center',
+    borderWidth: 2,
+    padding: 10,
+    margin: 10,
   },
 
   inline: {
@@ -399,6 +402,7 @@ const styles = StyleSheet.create({
   inlineMargin: {
     flexDirection: 'row',
     marginTop: 10,
+    // alignItems: 'center',
   },
 
   texthead: {
@@ -427,8 +431,8 @@ const styles = StyleSheet.create({
   },
 
   textCheckbox: {
-    fontSize: 15,
-    width: '35%',
+    fontSize: 13,
+    width: '45%',
     justifyContent: 'center',
     color: '#fff',
     fontFamily: 'Roboto-Light',
