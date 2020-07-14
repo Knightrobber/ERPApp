@@ -239,7 +239,7 @@ export default class Experiment extends Component {
                   }}
                   tintColors={{true: 'white', false: 'white'}}
                 />
-                <Text sstyle={styles.text}>Lecture </Text>
+                <Text style={styles.textCheckbox}>Lecture </Text>
               </View>
               <View
                 style={{
@@ -421,6 +421,14 @@ const styles = StyleSheet.create({
   text2: {
     fontSize: 15,
     width: '20%',
+    justifyContent: 'center',
+    color: '#fff',
+    fontFamily: 'Roboto-Light',
+  },
+
+  textCheckbox: {
+    fontSize: 15,
+    width: '35%',
     justifyContent: 'center',
     color: '#fff',
     fontFamily: 'Roboto-Light',
