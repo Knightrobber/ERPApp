@@ -76,10 +76,10 @@ export default class Experiment extends Component {
       });
 
     return (
-      <View>
+      <View style={{backgroundColor: '#102138', flex: 1}}>
         <View>
           <View style={styles.card1}>
-            <View style={{justifyContent: 'center', alignItems: 'center'}}>
+            <View>
               <View style={styles.inline}>
                 <Text style={styles.text}>Choose Course</Text>
                 <Dropdown
@@ -199,13 +199,26 @@ export default class Experiment extends Component {
           <View>
             <View
               style={{flexDirection: 'row', justifyContent: 'space-around'}}>
-              <Text>(advanced manipulations below)</Text>
-              <Button
+              {/* <Text>advanced manipulations below</Text> */}
+              {/* <Button
                 title="Advanced"
                 onPress={() => {
                   this.toggleAdvanced();
                 }}
-              />
+              /> */}
+              <TouchableHighlight
+                style={styles.AdvanceButtonStyle}
+                activeOpacity={0.5}
+                onPress={() => {
+                  this.toggleAdvanced();
+                }}>
+                {/* <LinearGradient
+                    colors={['#36D6BD', '#007E7B']}
+                    start={{x: 0, y: 1}}
+                    style={styles.Linear_G}> */}
+                <Text style={styles.TextStyle}>Advanced</Text>
+                {/* </LinearGradient> */}
+              </TouchableHighlight>
             </View>
             {this.showAdvanced()}
           </View>
@@ -219,16 +232,11 @@ export default class Experiment extends Component {
       return (
         <View style={styles.card3}>
           <Text style={styles.texthead}>Check Missable Classes</Text>
-          <View
-            style={{
-              flexDirection: 'row',
-              justifyContent: 'space-between',
-              alignItems: 'baseline',
-            }}>
+          <View style={styles.inlineMargin}>
             <Text style={styles.text}> Choose Category</Text>
             <Text style={styles.text}>Category</Text>
           </View>
-          <View style={{flexDirection: 'row', justifyContent: 'space-around'}}>
+          <View style={styles.inlineMargin}>
             <View style={{width: '30%'}}>
               <View style={{flexDirection: 'row'}}>
                 <CheckBox
@@ -239,7 +247,7 @@ export default class Experiment extends Component {
                   }}
                   tintColors={{true: 'white', false: 'white'}}
                 />
-                <Text style={styles.textCheckbox}>Lecture </Text>
+                <Text style={styles.textCheckbox}>Lecture</Text>
               </View>
               <View
                 style={{
@@ -251,24 +259,24 @@ export default class Experiment extends Component {
                     flexDirection: 'row',
                     justifyContent: 'space-around',
                   }}>
-                  <Text> M </Text>
-                  <Text> 10</Text>
+                  <Text style={styles.text3}>M</Text>
+                  <Text style={styles.text3}>10</Text>
                 </View>
                 <View
                   style={{
                     flexDirection: 'row',
                     justifyContent: 'space-around',
                   }}>
-                  <Text> C </Text>
-                  <Text> 3</Text>
+                  <Text style={styles.text3}>C</Text>
+                  <Text style={styles.text3}>3</Text>
                 </View>
                 <View
                   style={{
                     flexDirection: 'row',
                     justifyContent: 'space-around',
                   }}>
-                  <Text> MnC </Text>
-                  <Text> 0 </Text>
+                  <Text style={styles.text3}>MnC</Text>
+                  <Text style={styles.text3}>0</Text>
                 </View>
               </View>
             </View>
@@ -295,24 +303,24 @@ export default class Experiment extends Component {
                     flexDirection: 'row',
                     justifyContent: 'space-around',
                   }}>
-                  <Text> M </Text>
-                  <Text> 10</Text>
+                  <Text style={styles.text3}>M</Text>
+                  <Text style={styles.text3}>10</Text>
                 </View>
                 <View
                   style={{
                     flexDirection: 'row',
                     justifyContent: 'space-around',
                   }}>
-                  <Text> C </Text>
-                  <Text> 3</Text>
+                  <Text style={styles.text3}>C</Text>
+                  <Text style={styles.text3}>3</Text>
                 </View>
                 <View
                   style={{
                     flexDirection: 'row',
                     justifyContent: 'space-around',
                   }}>
-                  <Text> MnC </Text>
-                  <Text> 0 </Text>
+                  <Text style={styles.text3}>MnC</Text>
+                  <Text style={styles.text3}>0</Text>
                 </View>
               </View>
             </View>
@@ -339,31 +347,51 @@ export default class Experiment extends Component {
                     flexDirection: 'row',
                     justifyContent: 'space-around',
                   }}>
-                  <Text> M </Text>
-                  <Text> 10</Text>
+                  <Text style={styles.text3}>M</Text>
+                  <Text style={styles.text3}>10</Text>
                 </View>
                 <View
                   style={{
                     flexDirection: 'row',
                     justifyContent: 'space-around',
                   }}>
-                  <Text> C </Text>
-                  <Text> 3</Text>
+                  <Text style={styles.text3}>C</Text>
+                  <Text style={styles.text3}>3</Text>
                 </View>
                 <View
                   style={{
                     flexDirection: 'row',
                     justifyContent: 'space-around',
                   }}>
-                  <Text> MnC </Text>
-                  <Text> 0 </Text>
+                  <Text style={styles.text3}>MnC</Text>
+                  <Text style={styles.text3}>0</Text>
                 </View>
               </View>
             </View>
           </View>
-          <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
-            <Button title="undo" />
-            <Button title="See Missable Classes" />
+          <View style={styles.inlineMargin}>
+            <TouchableHighlight
+              style={styles.UndoButtonStyle}
+              activeOpacity={0.5}
+              onPress={() => {}}>
+              {/* <LinearGradient
+                    colors={['#36D6BD', '#007E7B']}
+                    start={{x: 0, y: 1}}
+                    style={styles.Linear_G}> */}
+              <Text style={styles.SubmitTextStyle}>Undo</Text>
+              {/* </LinearGradient> */}
+            </TouchableHighlight>
+            <TouchableHighlight
+              style={styles.SeeButtonStyle}
+              activeOpacity={0.5}
+              onPress={() => {}}>
+              {/* <LinearGradient
+                    colors={['#36D6BD', '#007E7B']}
+                    start={{x: 0, y: 1}}
+                    style={styles.Linear_G}> */}
+              <Text style={styles.SubmitTextStyle}>See Missable Classes</Text>
+              {/* </LinearGradient> */}
+            </TouchableHighlight>
           </View>
         </View>
       );
@@ -379,16 +407,25 @@ export default class Experiment extends Component {
 const styles = StyleSheet.create({
   card1: {
     backgroundColor: '#102138',
+    borderColor: '#fff',
     alignItems: 'center',
+    borderWidth: 2,
+    padding: 10,
+    margin: 10,
   },
 
   card2: {
     backgroundColor: '#102138',
+    borderColor: '#fff',
     alignItems: 'center',
+    borderWidth: 2,
+    padding: 10,
+    margin: 10,
   },
 
   card3: {
-    backgroundColor: 'blue',
+    backgroundColor: '#102138',
+    borderColor: '#fff',
     alignItems: 'center',
     borderWidth: 2,
     padding: 10,
@@ -401,7 +438,7 @@ const styles = StyleSheet.create({
 
   inlineMargin: {
     flexDirection: 'row',
-    marginTop: 10,
+    marginTop: 15,
     // alignItems: 'center',
   },
 
@@ -430,6 +467,14 @@ const styles = StyleSheet.create({
     fontFamily: 'Roboto-Light',
   },
 
+  text3: {
+    fontSize: 15,
+    width: '30%',
+    justifyContent: 'center',
+    color: '#fff',
+    fontFamily: 'Roboto-Light',
+  },
+
   textCheckbox: {
     fontSize: 13,
     width: '45%',
@@ -446,12 +491,40 @@ const styles = StyleSheet.create({
     marginTop: 10,
   },
 
+  AdvanceButtonStyle: {
+    backgroundColor: '#102138',
+    borderRadius: 10,
+    borderWidth: 2,
+    borderColor: '#36D6BD',
+    width: 150,
+    marginTop: 10,
+  },
+
   TradeButtonStyle: {
     backgroundColor: '#102138',
     borderRadius: 10,
     borderWidth: 2,
     width: 50,
     marginTop: 0,
+    borderColor: '#36D6BD',
+  },
+
+  SeeButtonStyle: {
+    backgroundColor: '#102138',
+    borderRadius: 10,
+    borderWidth: 2,
+    width: 180,
+    marginTop: 10,
+    borderColor: '#36D6BD',
+    marginLeft: 10,
+  },
+
+  UndoButtonStyle: {
+    backgroundColor: '#102138',
+    borderRadius: 10,
+    borderWidth: 2,
+    width: 60,
+    marginTop: 10,
     borderColor: '#36D6BD',
   },
 
