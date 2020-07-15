@@ -30,6 +30,7 @@ import LoginStudent from './Login/LoginStudent.js';
 import AddCourses from './StudentTabs/AddCourses.js';
 import MarkAttendance from './StudentTabs/MarkAttendance.js';
 import CheckAttendance from './StudentTabs/CheckAttendance.js';
+import Experiment from './StudentTabs/Experiment.js';
 import CourseList from './StudentTabs/CourseList.js';
 import SetHolidays from './TeacherTabs/SetHolidays.js';
 import TeacherTimeTable from './TeacherTabs/TeacherTimeTable.js'
@@ -69,11 +70,10 @@ export default class App extends Component{
   }
   createStudentTabs = () => {
     return(
-      <Tabs.Navigator>
-        <Tabs.Screen name="AddCourses" component={AddCourses}/>
-        <Tabs.Screen name="MarkAttendance" component={MarkAttendance}/>
-        <Tabs.Screen name="CheckAttendance" component={CheckAttendance}/>
-        <Tabs.Screen name="CourseList" component ={CourseList}/>
+      <Tabs.Navigator tabBarOptions={{style:{backgroundColor:'#36D6BD'}}}>
+        <Tabs.Screen name="Mark Attendance" component={MarkAttendance} />
+        <Tabs.Screen name="Attendance Playground" component={Experiment}/>
+        <Tabs.Screen name="Courses" component ={CourseList}/>
       </Tabs.Navigator>
     )
   }

@@ -46,12 +46,14 @@ import LinearGradient from 'react-native-linear-gradient';
         let email = this.state.email;
         let password = this.state.password;
         console.log(email + " " + password)
+        
         if(email!='' && password!=''){
+          
             auth().signInWithEmailAndPassword(email,password).then((user)=>{
                 this.setState({
                     user:user.user.email
                 },()=>{
-                  
+                  console.log("logged In")
                   this.props.navigation.navigate("Teacher");
                   
                 })
@@ -105,23 +107,23 @@ import LinearGradient from 'react-native-linear-gradient';
 
     render(){
         return(
-          <View style = { styles.MainContainer }>
-          <View style = { styles.Login_box }>
-            <View style = { styles.FormBox }>
-            <View style={ styles.image }>
+          <SafeAreaView style = { styles.MainContainer }>
+          <SafeAreaView style = { styles.Login_box }>
+            <SafeAreaView style = { styles.FormBox }>
+            <SafeAreaView style={ styles.image }>
               <Image source={ require('../src/images/Final_logo.png') } style={ styles.Final_logo }/>
-              </View>
+              </SafeAreaView>
             <Text style={styles.TextStyle2}>Faculty Login</Text>
-              <TextInput textContentType='emailAddress' placeholderTextColor="#fff" placeholder="E-mail"  style = { styles.textInput_Style } onChangeText = {(email)=>{this.setState({email:email})}}/>
-              <TextInput textContentType='password' secureTextEntry={true} placeholderTextColor="#fff" placeholder="Password" style = { styles.textInput_Style } onChangeText = {(password)=>{this.setState({password:password})}}/>
+              <TextInput textContentType='emailAddress' placeholderTextColor="#fff" placeholder="E-mail"   onChangeText = {(email)=>{this.setState({email:email})}} style={{color:'white'}}/>
+              <TextInput textContentType='password' secureTextEntry={true} placeholderTextColor="#fff" placeholder="Password"  onChangeText = {(password)=>{this.setState({password:password})}} style={{color:'white'}}/>
             <TouchableHighlight style={styles.SubmitButtonStyle} activeOpacity = { 0.5 } onPress={()=>{this.login()}} >
             <LinearGradient colors={['#36D6BD','#007E7B']} start={{ x:0, y:1}} style={ styles.Linear_G }>	
               <Text style={styles.TextStyle}> LOGIN </Text>
             </LinearGradient>
             </TouchableHighlight>
-            </View>
-          </View>
-        </View>
+            </SafeAreaView>
+          </SafeAreaView>
+        </SafeAreaView>
         
         )
 
